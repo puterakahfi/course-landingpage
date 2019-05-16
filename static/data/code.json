@@ -1,0 +1,29 @@
+[
+    {
+        "id": "1",
+        "title": "Igrow",
+        "referal": [
+            "IGWAKH1982",
+            "IGWSAN1978",
+            "IGWNAS1980",
+            "IGWFAH1991",
+            "IGWFAUZ1995",
+            "IGWSID1996",
+            "IGWARF1983"
+        ]
+    },
+    {
+        "id": "2",
+        "title": "Investree",
+        "referal": [
+            "NKBFL"
+        ]
+    },
+    {
+        "id": "3",
+        "title": "Tanifund",
+        "referal": [
+            "7301542"
+        ]
+    }
+]
