@@ -6,7 +6,7 @@
           <div class="hero-body">
             <div class="titleunderline"></div>
 
-            <h1 class="title is-2">Your awesome book or ebook title here</h1>
+            <h1 class="title is-2">Your awesome course title here</h1>
             <h1 class="subtitle is-6 is-marginless">Your awesome subtitle here</h1>
 
             <br>
@@ -32,7 +32,7 @@
       <div class="column is-5">
         <figure class="image">
           <img
-            src="https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/mathematics_4otb.svg"
+            src="https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/code_review_l1q9.svg"
             alt="Placeholder image"
           >
         </figure>

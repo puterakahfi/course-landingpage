@@ -2,7 +2,7 @@
   <nav class="navbar container" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
       <nuxt-link to="/" class="navbar-item">
-        <strong>YOURBOOK</strong>HERE
+        <strong>YOUR COURSE TITLE </strong> &nbsp;HERE
       </nuxt-link>
 
       <a
