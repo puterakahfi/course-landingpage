@@ -8,7 +8,7 @@
               <div class="titleunderline"></div>
 
               <h1 class="title is-1">your awesome course title is here.</h1>
-              <h1 class="subtitle is-4 is-paddingless">// Your awesome subtitle here</h1>
+              <h1 class="subtitle is-5 is-paddingless">// Your awesome subtitle here</h1>
 
               <p class="subtitle is-size-6">
                 <b>Your awesome description here</b>
@@ -19,7 +19,7 @@
               <div class="cta">
                 <a class="button is-info is-medium" href="/docs/fintechOJK.xlsx" target="_blank">
                   <span class="is-size-6">
-                    <fa :icon="['fas', 'download']" class="fa-1x"/>&nbsp;Download sample pdf
+                    <fa :icon="['fas', 'download']" class="fa-1x"/>&nbsp;Download sample 
                   </span>
                 </a>
               </div>
@@ -49,41 +49,6 @@
       </div>
     </section>
 
-    <section class="hero">
-      <div class="hero-body">
-        <div class="container">
-          <h1 class="title is-5 has-text-centered	">what people says about this course</h1>
-
-          <div class="columns is-multiline">
-            <div class="column is-6" v-for="item in data" :key="item.id">
-              <div class="box testimonial">
-                <article class="media">
-                  <div class="media-left">
-                    <figure class="image is-128x128 is-rounded">
-                      <img
-                        src="https://img.icons8.com/clouds/384/administrator-male.png"
-                        alt="Image"
-                      >
-                    </figure>
-                  </div>
-                  <div class="media-content">
-                    <div class="content">
-                      <strong class="title is-5">John doe</strong>
-                      <br>
-
-                      <p
-                        class="is-size-7"
-                      >Materi yang diangkat sangat bagus, pemberi materi menerangkan dengan amat sangat jelas, dan setiap peserta yang sudah lulus bisa mendapatkan portofolionya untuk bekal melamar di perusahaan.</p>
-                      <span class="title is-7">-- senior developer, bukalapang.com</span>
-                    </div>
-                  </div>
-                </article>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
   </div>
 </template>
 
