@@ -7,7 +7,7 @@
             <div class="hero-body is-paddingless">
               <div class="titleunderline"></div>
 
-              <h1 class="title is-1">Your awesome course title is here.</h1>
+              <h1 class="title is-1">your awesome course title is here.</h1>
               <h1 class="subtitle is-4 is-paddingless">// Your awesome subtitle here</h1>
 
               <p class="subtitle is-size-6">
@@ -29,7 +29,7 @@
         <div class="column is-6">
           <figure class="image">
             <img
-              src="https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/landing_page_q6hh.svg"
+              src="https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/insert_block_efyb.svg"
               alt="Placeholder image"
             >
           </figure>
@@ -38,32 +38,43 @@
     </div>
     <br>
 
+    <section class="container">
+      <div class="columns">
+        <div class="column is-6">
+          <Benefits :data="benefits"/>
+        </div>
+        <div class="column is-6">
+          <Instructors :data="instructors"/>
+        </div>
+      </div>
+    </section>
+
     <section class="hero">
       <div class="hero-body">
         <div class="container">
-          <div class="titleunderline"></div>
-
-          <h1 class="title is-3">What benefits if you take this course</h1>
+          <h1 class="title is-5 has-text-centered	">what people says about this course</h1>
 
           <div class="columns is-multiline">
             <div class="column is-6" v-for="item in data" :key="item.id">
-              <div class="box">
+              <div class="box testimonial">
                 <article class="media">
                   <div class="media-left">
-                    <figure class="image is-128x128">
-                      <img src="https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/experience_design_eq3j.svg" alt="Image">
+                    <figure class="image is-128x128 is-rounded">
+                      <img
+                        src="https://img.icons8.com/clouds/384/administrator-male.png"
+                        alt="Image"
+                      >
                     </figure>
                   </div>
                   <div class="media-content">
                     <div class="content">
-                      <strong class="title is-5">Benefit 1</strong>
+                      <strong class="title is-5">John doe</strong>
                       <br>
-                      <small class="subtitle is-7">@johnsmith</small>
-                      <small>31m</small>
 
                       <p
                         class="is-size-7"
-                      >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.</p>
+                      >Materi yang diangkat sangat bagus, pemberi materi menerangkan dengan amat sangat jelas, dan setiap peserta yang sudah lulus bisa mendapatkan portofolionya untuk bekal melamar di perusahaan.</p>
+                      <span class="title is-7">-- senior developer, bukalapang.com</span>
                     </div>
                   </div>
                 </article>
@@ -77,27 +88,31 @@
 </template>
 
 <script>
-import Logo from "~/components/Logo.vue";
+import Benefits from "~/components/Benefits.vue";
+import Instructors from "~/components/Instructors.vue";
 import data from "~/static/data/testimonials.json"; // Or wherever it is found
+
+import benefits from "~/static/data/benefits.json";
+import instructors from "~/static/data/instructors.json";
+
 
 export default {
   data() {
     return {
-      data: data
+      data: data,
+      benefits: benefits,
+      instructors: instructors
     };
   },
   components: {
-    Logo
+    Benefits,
+    Instructors
   }
 };
 </script>
 
 
 <style lang="scss" scoped>
-.box {
-  box-shadow: none;
-}
-
 .subtitle {
   margin-top: 23px;
   line-height: 175%;
@@ -156,5 +171,13 @@ h1 {
   height: 500px;
   display: flex;
   align-items: center;
+}
+
+.box
+{
+  &.testimonial
+  {
+    background: transparent;
+  }
 }
 </style>

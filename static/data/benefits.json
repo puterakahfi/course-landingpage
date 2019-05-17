@@ -1,7 +1,7 @@
 [
     {
         "id": "amartha",
-        "title": "Amartha",
+        "title": "Get latest technology",
         "image": "https://i1.wp.com/blog.amartha.com/wp-content/uploads/2016/08/cropped-logo_amartha_logogram.png?fit=512%2C512&ssl=1",
         "description": "fintech peer to peer lending untuk menghubungkan langsung pengusaha mikro dengan pemodal secara online",
         "url": "https://amartha.com/",
@@ -64,5 +64,13 @@
         "description": "CROWDE membantu permodalan petani dengan sistem permodalan bersama oleh Teman CROWDE (pemodal) melalui platform situs CROWDE.CO.",
         "url": "https://www.crowde.co/",
         "tags": "pertanian,peternakan"
+    },
+    {
+        "id": "2",
+        "title": "Dana syariah",
+        "image": "https://afpi.or.id/fm/Members/3221_151567627cf.png",
+        "description": "Melalui Dana Syariah Mencari Rezeki Yang Halal dan Barokah Untuk Menyediakan Layanan Investasi Syariah dan Pembiayaan Syariah bagi Pemilik Usaha",
+        "url": "http://danasyariah.id/",
+        "tags": "property, syariah"
     }
 ]

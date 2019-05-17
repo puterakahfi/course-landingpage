@@ -40,29 +40,5 @@
                 }
             }
         ]
-    },
-    {
-        "id": "ammana",
-        "title": "Ammana",
-        "image": "https://ammana.id/assets/img/ammana-icon.png",
-        "description": "Ammana sebagai Fintek Syariah Pertama di Indonesia hadir untuk mendukung kemajuan para pelaku UMKM dengan cara menjembatani para pendana/lender dengan para peminjam/borrower",
-        "url": "https://ammana.id/",
-        "tags": "pembiayaan, umkm"
-    },
-    {
-        "id": "tanifund",
-        "title": "Bantuternak",
-        "image": "https://bantuternak.com/wp-content/uploads/2018/08/logobt.png",
-        "description": "Bantuternak adalah Aplikasi investasi digital yang berfokus memberdayakan peternak melalui penyaluran modal dan pendampingan peternak.",
-        "url": "https://bantuternak.com",
-        "tags": "peternakan"
-    },
-    {
-        "id": "1",
-        "title": "Crowde",
-        "image": "https://instellar.id/wp-content/uploads/2018/02/crowde-logo-1.jpg",
-        "description": "CROWDE membantu permodalan petani dengan sistem permodalan bersama oleh Teman CROWDE (pemodal) melalui platform situs CROWDE.CO.",
-        "url": "https://www.crowde.co/",
-        "tags": "pertanian,peternakan"
     }
 ]
