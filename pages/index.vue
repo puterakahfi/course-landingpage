@@ -1,103 +1,84 @@
 <template>
-  <div class="container">
-    <div class="columns align-items-center">
-      <div class="column is-6">
-        <section class="hero is-marginless">
-          <div class="hero-body">
-            <div class="titleunderline"></div>
+  <div>
+    <div class="container">
+      <div class="columns align-items-center">
+        <div class="column is-6">
+          <section class="hero is-paddingless">
+            <div class="hero-body is-paddingless">
+              <div class="titleunderline"></div>
 
-            <h1 class="title is-2">Your awesome course title here</h1>
-            <h1 class="subtitle is-6 is-marginless">Your awesome subtitle here</h1>
+              <h1 class="title is-1">Your awesome course title is here.</h1>
+              <h1 class="subtitle is-4 is-paddingless">// Your awesome subtitle here</h1>
 
-            <br>
-            <p class="subtitle is-6">
-              <b>Your awesome description here</b>
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-              <br>
-            </p>
+              <p class="subtitle is-size-6">
+                <b>Your awesome description here</b>
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+                <br>
+              </p>
 
-            <br>
-            <div class="cta">
-              <a
-                class="button is-success is-normal shadowless"
-                href="/docs/fintechOJK.xlsx"
-                target="_blank"
-              >
-                <fa :icon="['fas', 'download']" class="fa-1x"/>&nbsp;Download sample pdf
-              </a>
-            </div>
-          </div>
-        </section>
-      </div>
-      <div class="column is-5">
-        <figure class="image">
-          <img
-            src="https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/code_review_l1q9.svg"
-            alt="Placeholder image"
-          >
-        </figure>
-      </div>
-    </div>
-    <div class="columns is-multiline mt-5 pt-5">
-      <div class="column is-12">
-
-       <h5  class="title is-5 has-text-centered	">Testimonial </h5>
-      </div>
-      <div class="column is-4" v-for="item in data" :key="item.id">
-        <div class="card has-equal-height">
-          <div class="card-content">
-            <div class="media">
-       
-              <div class="media-content">
-                <div class="titleunderline is-marginless"></div>
-
-                <nuxt-link :to="'/platform/'+item.id">
-                  <p class="title is-4">John Doe</p>
-                </nuxt-link>
-
-                <div class="control">
-                  <b-taglist attached class="rating">
-                    <b-tag type="is-dark">
-                      <fa :icon="['fas', 'star']" class="has-text-warning"/>
-                      <fa :icon="['fas', 'star']" class="has-text-warning"/>
-
-                      <fa :icon="['fas', 'star']" class="has-text-warning"/>&nbsp;
-                      <b>3.5</b> / 5
-                    </b-tag>
-                  </b-taglist>
-                </div>
+              <div class="cta">
+                <a class="button is-info is-medium" href="/docs/fintechOJK.xlsx" target="_blank">
+                  <span class="is-size-6">
+                    <fa :icon="['fas', 'download']" class="fa-1x"/>&nbsp;Download sample pdf
+                  </span>
+                </a>
               </div>
             </div>
-            <br>
-            <div class="content">
-              <p class="subtitle is-size-6">This book is very good</p>
+          </section>
+        </div>
+        <div class="column is-6">
+          <figure class="image">
+            <img
+              src="https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/landing_page_q6hh.svg"
+              alt="Placeholder image"
+            >
+          </figure>
+        </div>
+      </div>
+    </div>
+    <br>
 
-              <section>
-                <b-tag>We Developer at google </b-tag>
-              </section>
+    <section class="hero">
+      <div class="hero-body">
+        <div class="container">
+          <div class="titleunderline"></div>
 
-              <br>
+          <h1 class="title is-3">What benefits if you take this course</h1>
 
-              <p class="subtitle is-5 links">
-                <span v-if="typeof item.links !== 'undefined'">
-                  <span :key="link.url" v-for="link in item.links">
-                    <a :href="link.url" target="_blank">
-                      <fa :icon="[link.icon.category, link.icon.icon]" class="fa-1x"/>&nbsp;
-                    </a>
-                  </span>
-                </span>
-              </p>
+          <div class="columns is-multiline">
+            <div class="column is-6" v-for="item in data" :key="item.id">
+              <div class="box">
+                <article class="media">
+                  <div class="media-left">
+                    <figure class="image is-128x128">
+                      <img src="https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/experience_design_eq3j.svg" alt="Image">
+                    </figure>
+                  </div>
+                  <div class="media-content">
+                    <div class="content">
+                      <strong class="title is-5">Benefit 1</strong>
+                      <br>
+                      <small class="subtitle is-7">@johnsmith</small>
+                      <small>31m</small>
+
+                      <p
+                        class="is-size-7"
+                      >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.</p>
+                    </div>
+                  </div>
+                </article>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </section>
   </div>
 </template>
 
 <script>
 import Logo from "~/components/Logo.vue";
-import data from "~/static/data/platforms.json"; // Or wherever it is found
+import data from "~/static/data/testimonials.json"; // Or wherever it is found
 
 export default {
   data() {
@@ -113,6 +94,15 @@ export default {
 
 
 <style lang="scss" scoped>
+.box {
+  box-shadow: none;
+}
+
+.subtitle {
+  margin-top: 23px;
+  line-height: 175%;
+  color: #9798a9;
+}
 .links a {
   color: grey;
   &:hover {

@@ -4,7 +4,7 @@ const routerBase =
   process.env.DEPLOY_ENV === "GH_PAGES"
     ? {
         router: {
-          base: "/refview-invest/"
+          base: "/course-landingpage/"
         }
       }
     : {};

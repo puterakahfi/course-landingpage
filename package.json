@@ -1,7 +1,7 @@
 {
-  "name": "book-landingpage",
+  "name": "course-landingpage",
   "version": "0.0.1",
-  "description": "Landingpage for your awesome book",
+  "description": "Landingpage for your awesome course",
   "author": "puterakahfi",
   "private": true,
   "scripts": {
