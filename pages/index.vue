@@ -1,23 +1,52 @@
 <template>
-  <div>
+  <div class="has-background-white has-padding-top-50">
     <section class="container">
       <Head/>
+
+      <hr>
     </section>
-    <section class="">
+    <section class="has-margin-top-50 has-padding-bottom-50">
       <div class="container">
         <div class="columns">
           <div class="column is-5">
-            <Benefits :data="benefits"/>
+            <img
+              src="https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/deliveries_131a.svg"
+            >
           </div>
           <div class="column is-7">
-            <Instructors :data="instructors"/>
+            <Benefits :data="benefits"/>
           </div>
         </div>
       </div>
     </section>
 
+    <section class="has-padding-top-50 has-background-light">
+      <div class="container">
+        <div class="columns">
+          
+          <div class="column is-6">
+            <Instructors :data="instructors"/>
+          </div>
+          <div class="column is-6">
 
-    <Testimonials :data="testimonials" class="has-margin-top-50"/>
+            <img
+              src="https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/teaching_f1cm.svg"
+              alt
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class=" has-background-light">
+      <div class="container">
+        <div class="columns">
+          <div class="column">
+            <Testimonials :data="testimonials" class="has-margin-top-50"/>
+          </div>
+        </div>
+      </div>
+    </section>
   </div>
 </template>
 
@@ -25,7 +54,6 @@
 import Benefits from "~/components/Benefits.vue";
 import Instructors from "~/components/Instructors.vue";
 import Head from "~/components/Head.vue";
-
 import Testimonials from "~/components/Testimonials.vue";
 import testimonials from "~/static/data/testimonials.json";
 import benefits from "~/static/data/benefits.json";
@@ -54,36 +82,6 @@ export default {
   margin-top: 23px;
   line-height: 175%;
   color: #9798a9;
-}
-.links a {
-  color: grey;
-  &:hover {
-    color: black;
-  }
-
-  .fa-facebook {
-    &:hover {
-      color: #4267b2;
-    }
-  }
-
-  .fa-youtube {
-    &:hover {
-      color: #cd381c;
-    }
-  }
-
-  .fa-instagram {
-    &:hover {
-      color: #e35a39;
-    }
-  }
-
-  .fa-twitter {
-    &:hover {
-      color: #1c9beb;
-    }
-  }
 }
 .tags.has-addons .tag {
   font-size: 0.6em;

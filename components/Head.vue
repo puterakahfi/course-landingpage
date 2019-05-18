@@ -8,7 +8,7 @@
 
             <h1 class="title is-1 is-family-primary">your awesome course title is here.</h1>
             <h1
-              class="subtitle is-5 is-paddingless has-text-weight-semibold is-family-secondary"
+              class="subtitle has-margin-bottom-20 is-5 is-paddingless is-family-secondary"
             >Your awesome subtitle here</h1>
 
             <p class="is-size-6 has-text-grey is-family-secondary">
@@ -18,16 +18,11 @@
             </p>
             <br>
             <div class="cta">
-              <a
-                class="button is-primary is-medium "
-                href="/docs/fintechOJK.xlsx"
-                target="_blank"
-              >
+              <a class="button is-primary is-medium" href="/docs/fintechOJK.xlsx" target="_blank">
                 <span class="is-size-6">
-                  <fa :icon="['fas', 'download']" class="fa-1x"/>&nbsp;Download sample
+                  <fa :icon="['fas', 'download']" class="fa-1x"/>&nbsp;CTA Button
                 </span>
               </a>
-             
             </div>
           </div>
         </section>
@@ -35,7 +30,7 @@
       <div class="column is-6">
         <figure class="image">
           <img
-            src="https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/insert_block_efyb.svg"
+            src="https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/operating_system_4lr6.svg"
             alt="Placeholder image"
           >
         </figure>

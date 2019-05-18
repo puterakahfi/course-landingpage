@@ -1,44 +1,47 @@
-[
-    {
-        "id": "amartha",
-        "title": "Amartha",
-        "image": "https://i1.wp.com/blog.amartha.com/wp-content/uploads/2016/08/cropped-logo_amartha_logogram.png?fit=512%2C512&ssl=1",
-        "description": "fintech peer to peer lending untuk menghubungkan langsung pengusaha mikro dengan pemodal secara online",
-        "url": "https://amartha.com/",
-        "tags": "pertanian",
-        "links": [
-            {
-                "label": "instagram",
-                "url": "https://www.instagram.com/amarthaid/",
-                "icon": {
-                    "category": "fab",
-                    "icon": "instagram"
+{
+    "label": "Instructures",
+    "items": [
+        {
+            "id": "amartha",
+            "name": "John Doe",
+            "image": "https://img.icons8.com/bubbles/384/administrator-male.png",
+            "description": "Your awesome  <b>description </b> here Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur",
+            "url": "https://amartha.com/",
+            "tags": "pertanian",
+            "links": [
+                {
+                    "label": "instagram",
+                    "url": "https://www.instagram.com/amarthaid/",
+                    "icon": {
+                        "category": "fab",
+                        "icon": "instagram"
+                    }
+                },
+                {
+                    "label": "facebook",
+                    "url": "https://www.facebook.com/amarthaid",
+                    "icon": {
+                        "category": "fab",
+                        "icon": "facebook"
+                    }
+                },
+                {
+                    "label": "twitter",
+                    "url": "https://twitter.com/amarthaid",
+                    "icon": {
+                        "category": "fab",
+                        "icon": "twitter"
+                    }
+                },
+                {
+                    "label": "youtube",
+                    "url": "https://www.youtube.com/channel/UCLcoqQmklkda3O4G60oIPRQ",
+                    "icon": {
+                        "category": "fab",
+                        "icon": "youtube"
+                    }
                 }
-            },
-            {
-                "label": "facebook",
-                "url": "https://www.facebook.com/amarthaid",
-                "icon": {
-                    "category": "fab",
-                    "icon": "facebook"
-                }
-            },
-            {
-                "label": "twitter",
-                "url": "https://twitter.com/amarthaid",
-                "icon": {
-                    "category": "fab",
-                    "icon": "twitter"
-                }
-            },
-            {
-                "label": "youtube",
-                "url": "https://www.youtube.com/channel/UCLcoqQmklkda3O4G60oIPRQ",
-                "icon": {
-                    "category": "fab",
-                    "icon": "youtube"
-                }
-            }
-        ]
-    }
-]
+            ]
+        }
+    ]
+}

@@ -1,8 +1,9 @@
 <template>
-  <nav class="navbar container  " role="navigation" aria-label="main navigation">
-    <div class="navbar-brand ">
-      <nuxt-link to="/" class="navbar-item  is-paddingless">
-        <strong>COURSE TITLE </strong> &nbsp;HERE
+  <nav class="navbar container" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <nuxt-link to="/" class="navbar-item is-paddingless">
+        <fa :icon="['fas', 'code']" class="fa-1x"/>&nbsp;
+        <strong>COURSE</strong> &nbsp;LANDINGPAGE
       </nuxt-link>
 
       <a
@@ -19,9 +20,7 @@
     </div>
 
     <div id="navbarBasicExample" class="navbar-menu">
-      <div class="navbar-start">
-        
-      </div>
+      <div class="navbar-start"></div>
     </div>
   </nav>
 </template>

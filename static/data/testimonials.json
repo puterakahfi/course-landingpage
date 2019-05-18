@@ -1,68 +1,79 @@
-[
-    {
-        "id": "amartha",
-        "title": "Amartha",
-        "image": "https://i1.wp.com/blog.amartha.com/wp-content/uploads/2016/08/cropped-logo_amartha_logogram.png?fit=512%2C512&ssl=1",
-        "description": "fintech peer to peer lending untuk menghubungkan langsung pengusaha mikro dengan pemodal secara online",
-        "url": "https://amartha.com/",
-        "tags": "pertanian",
-        "links": [
-            {
-                "label": "instagram",
-                "url": "https://www.instagram.com/amarthaid/",
-                "icon": {
-                    "category": "fab",
-                    "icon": "instagram"
+{
+    "label": "what people says about this course",
+    "items": [
+        {
+            "id": "amartha",
+            "name": "Sutrisno",
+            "image": "https://cdn.pixabay.com/photo/2018/05/19/22/03/man-3414477_960_720.png",
+            "description": "fintech peer to peer lending untuk menghubungkan langsung pengusaha mikro dengan pemodal secara online",
+            "url": "https://amartha.com/",
+            "tags": "pertanian",
+            "title": "Senior Web Developer",
+            "company": "Bukalapang.com",
+            "links": [
+                {
+                    "label": "instagram",
+                    "url": "https://www.instagram.com/amarthaid/",
+                    "icon": {
+                        "category": "fab",
+                        "icon": "instagram"
+                    }
+                },
+                {
+                    "label": "facebook",
+                    "url": "https://www.facebook.com/amarthaid",
+                    "icon": {
+                        "category": "fab",
+                        "icon": "facebook"
+                    }
+                },
+                {
+                    "label": "twitter",
+                    "url": "https://twitter.com/amarthaid",
+                    "icon": {
+                        "category": "fab",
+                        "icon": "twitter"
+                    }
+                },
+                {
+                    "label": "youtube",
+                    "url": "https://www.youtube.com/channel/UCLcoqQmklkda3O4G60oIPRQ",
+                    "icon": {
+                        "category": "fab",
+                        "icon": "youtube"
+                    }
                 }
-            },
-            {
-                "label": "facebook",
-                "url": "https://www.facebook.com/amarthaid",
-                "icon": {
-                    "category": "fab",
-                    "icon": "facebook"
-                }
-            },
-            {
-                "label": "twitter",
-                "url": "https://twitter.com/amarthaid",
-                "icon": {
-                    "category": "fab",
-                    "icon": "twitter"
-                }
-            },
-            {
-                "label": "youtube",
-                "url": "https://www.youtube.com/channel/UCLcoqQmklkda3O4G60oIPRQ",
-                "icon": {
-                    "category": "fab",
-                    "icon": "youtube"
-                }
-            }
-        ]
-    },
-    {
-        "id": "ammana",
-        "title": "Ammana",
-        "image": "https://ammana.id/assets/img/ammana-icon.png",
-        "description": "Ammana sebagai Fintek Syariah Pertama di Indonesia hadir untuk mendukung kemajuan para pelaku UMKM dengan cara menjembatani para pendana/lender dengan para peminjam/borrower",
-        "url": "https://ammana.id/",
-        "tags": "pembiayaan, umkm"
-    },
-    {
-        "id": "tanifund",
-        "title": "Bantuternak",
-        "image": "https://bantuternak.com/wp-content/uploads/2018/08/logobt.png",
-        "description": "Bantuternak adalah Aplikasi investasi digital yang berfokus memberdayakan peternak melalui penyaluran modal dan pendampingan peternak.",
-        "url": "https://bantuternak.com",
-        "tags": "peternakan"
-    },
-    {
-        "id": "1",
-        "title": "Crowde",
-        "image": "https://instellar.id/wp-content/uploads/2018/02/crowde-logo-1.jpg",
-        "description": "CROWDE membantu permodalan petani dengan sistem permodalan bersama oleh Teman CROWDE (pemodal) melalui platform situs CROWDE.CO.",
-        "url": "https://www.crowde.co/",
-        "tags": "pertanian,peternakan"
-    }
-]
+            ]
+        },
+        {
+            "id": "ammana",
+            "name": "Parmin",
+            "image": "https://img.icons8.com/cotton/2x/administrator-male.png",
+            "description": "Ammana sebagai Fintek Syariah Pertama di Indonesia hadir untuk mendukung kemajuan para pelaku UMKM dengan cara menjembatani para pendana/lender dengan para peminjam/borrower",
+            "url": "https://ammana.id/",
+            "tags": "pembiayaan, umkm",
+            "title": "Senior Web Developer",
+            "company": "Papikos.com"
+        },
+        {
+            "id": "tanifund",
+            "name": "Jokowibowo",
+            "image": "https://img.icons8.com/dusk/5x/small-smile.png",
+            "description": "Bantuternak adalah Aplikasi investasi digital yang berfokus memberdayakan peternak melalui penyaluran modal dan pendampingan peternak.",
+            "url": "https://bantuternak.com",
+            "tags": "peternakan",
+            "title": "Senior Web Developer",
+            "company": "gugel.com"
+        },
+        {
+            "id": "1",
+            "name": "Aisyah",
+            "image": "https://cdn.pixabay.com/photo/2016/08/20/05/36/avatar-1606914_960_720.png",
+            "description": "CROWDE membantu permodalan petani dengan sistem permodalan bersama oleh Teman CROWDE (pemodal) melalui platform situs CROWDE.CO.",
+            "url": "https://www.crowde.co/",
+            "tags": "pertanian,peternakan",
+            "title": "Senior Web Developer",
+            "company": "sholeheh.com"
+        }
+    ]
+}

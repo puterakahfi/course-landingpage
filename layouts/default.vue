@@ -1,16 +1,22 @@
 <template>
   <div>
-    <Navbar/>
+    <section class="has-background-white">
+      <Navbar/>
+    </section>
     <nuxt/>
+
+    <Footer class="has-margin-top-50"/>
   </div>
 </template>
 
 
 <script>
 import Navbar from "~/components/Navbar.vue";
+import Footer from "~/components/Footer.vue";
 export default {
   components: {
-    Navbar
+    Navbar,
+    Footer
   },
   mounted() {
     const $navbarBurgers = Array.prototype.slice.call(

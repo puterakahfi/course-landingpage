@@ -1,8 +1,10 @@
-[
-    {
+{
+
+    "title" : "what benefit for you",
+    "items":[{
         "id": "amartha",
         "title": "Get latest technology",
-        "image": "https://i1.wp.com/blog.amartha.com/wp-content/uploads/2016/08/cropped-logo_amartha_logogram.png?fit=512%2C512&ssl=1",
+        "image": "",
         "description": "fintech peer to peer lending untuk menghubungkan langsung pengusaha mikro dengan pemodal secara online",
         "url": "https://amartha.com/",
         "tags": "pertanian",
@@ -43,34 +45,28 @@
     },
     {
         "id": "ammana",
-        "title": "Ammana",
-        "image": "https://ammana.id/assets/img/ammana-icon.png",
+        "title": "Active chat group",
+        "image": "",
         "description": "Ammana sebagai Fintek Syariah Pertama di Indonesia hadir untuk mendukung kemajuan para pelaku UMKM dengan cara menjembatani para pendana/lender dengan para peminjam/borrower",
         "url": "https://ammana.id/",
         "tags": "pembiayaan, umkm"
     },
     {
         "id": "tanifund",
-        "title": "Bantuternak",
-        "image": "https://bantuternak.com/wp-content/uploads/2018/08/logobt.png",
+        "title": "Free T-Shirt",
+        "image": "",
         "description": "Bantuternak adalah Aplikasi investasi digital yang berfokus memberdayakan peternak melalui penyaluran modal dan pendampingan peternak.",
         "url": "https://bantuternak.com",
         "tags": "peternakan"
     },
     {
-        "id": "1",
-        "title": "Crowde",
-        "image": "https://instellar.id/wp-content/uploads/2018/02/crowde-logo-1.jpg",
-        "description": "CROWDE membantu permodalan petani dengan sistem permodalan bersama oleh Teman CROWDE (pemodal) melalui platform situs CROWDE.CO.",
-        "url": "https://www.crowde.co/",
-        "tags": "pertanian,peternakan"
-    },
-    {
-        "id": "2",
-        "title": "Dana syariah",
-        "image": "https://afpi.or.id/fm/Members/3221_151567627cf.png",
-        "description": "Melalui Dana Syariah Mencari Rezeki Yang Halal dan Barokah Untuk Menyediakan Layanan Investasi Syariah dan Pembiayaan Syariah bagi Pemilik Usaha",
-        "url": "http://danasyariah.id/",
-        "tags": "property, syariah"
+        "id": "tanifund",
+        "title": "Free Consultation",
+        "image": "",
+        "description": "Bantuternak adalah Aplikasi investasi digital yang berfokus memberdayakan peternak melalui penyaluran modal dan pendampingan peternak.",
+        "url": "https://bantuternak.com",
+        "tags": "peternakan"
     }
 ]
+
+}
