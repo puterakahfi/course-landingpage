@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar is-transparent container">
     <div class="navbar-brand">
-      <nuxt-link to="/" class="navbar-item">
+      <nuxt-link to="/" class="navbar-item has-text-weight-bold">
         <img
           src="https://img.icons8.com/nolan/384/code.png"
           alt="Bulma: a modern CSS framework based on Flexbox"
@@ -16,7 +16,7 @@
 
     <div id="navbarExampleTransparentExample" class="navbar-menu">
       <div class="navbar-start">
-        <nuxt-link to="/testimonials" class="navbar-item">testimonials</nuxt-link>
+        <nuxt-link to="/testimonials" class="navbar-item">Testimonials</nuxt-link>
         <nuxt-link to="/faq" class="navbar-item">FAQ</nuxt-link>
       </div>
 

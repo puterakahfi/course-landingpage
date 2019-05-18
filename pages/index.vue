@@ -36,15 +36,23 @@
       </div>
     </section>
 
+
+    <section class="has-padding-50 has-background-white">
+    <div class="container">
+      <h1 class="title is-3 has-text-centered	"> Price </h1>
+    <Pricing />
+    </div>
+
+  </section>
     <section class="has-background-light">
-      <div class="container">
+      <div class="container has-padding-bottom-50">
         <div class="columns">
           <div class="column">
             <Testimonials :data="limitTestimonial" class="has-padding-top-50"/>
           </div>
         </div>
 
-        <nuxt-link to="/testimonials" class="title is-5">all testimonials</nuxt-link>
+        <nuxt-link to="/testimonials" class="title is-5"> >> all testimonials</nuxt-link>
       </div>
     </section>
   </div>
@@ -52,6 +60,8 @@
 
 <script>
 import Benefits from "~/components/Benefits.vue";
+import Pricing from "~/components/Pricing.vue";
+
 import Instructors from "~/components/Instructors.vue";
 import Head from "~/components/Head.vue";
 import Testimonials from "~/components/Testimonials.vue";
@@ -71,7 +81,8 @@ export default {
     Benefits,
     Instructors,
     Testimonials,
-    Head
+    Head,
+    Pricing
   },
   computed: {
     limitTestimonial: function() {

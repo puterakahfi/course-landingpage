@@ -3,7 +3,6 @@
     <div class="titleunderline is-small"></div>
 
     <h1 class="title is-2">{{ data.title }}</h1>
-    <hr>
 
     <div class="columns is-multiline">
       <div class="column is-12" v-for="item in data.items" :key="item.id">

@@ -5,7 +5,7 @@
     </section>
     <nuxt/>
 
-    <Footer class="has-margin-top-50"/>
+    <Footer class=""/>
   </div>
 </template>
 
@@ -20,7 +20,7 @@ export default {
   },
   mounted() {
     this.$snackbar.open(
-      `This template is still in development progress`
+      `This template is still in development process`
     );
 
     const $navbarBurgers = Array.prototype.slice.call(

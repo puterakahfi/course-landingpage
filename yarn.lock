@@ -1728,10 +1728,20 @@ builtin-status-codes@^3.0.0:
   resolved "https://registry.yarnpkg.com/builtin-status-codes/-/builtin-status-codes-3.0.0.tgz#85982878e21b98e1c66425e03d0174788f569ee8"
   integrity sha1-hZgoeOIbmOHGZCXgPQF0eI9Wnug=
 
+bulma-extensions@^6.2.6:
+  version "6.2.6"
+  resolved "https://registry.yarnpkg.com/bulma-extensions/-/bulma-extensions-6.2.6.tgz#04ffd16bc376af347a945a4c30d754ea6ed7f326"
+  integrity sha512-6O8AvDRpALtqdQ625WiMkg7n/zsI81GZxIYx4zT/MoZOzJZWhYWH4S/kKoAeeCWY7mKkB9241No+cEm7JuhxDA==
+
 bulma-helpers@^0.3.7:
   version "0.3.7"
   resolved "https://registry.yarnpkg.com/bulma-helpers/-/bulma-helpers-0.3.7.tgz#ba267b6602b8f10172cda81707482d787f2463e3"
   integrity sha512-YWcESBGZtYK6DajFdMOH/S2Qb+b8G2wwcaF4DiW2fX/oSyCeH1avhgyH+awxduyY23+IfbmBnndpxJT56b/cVQ==
+
+bulma-pricingtable@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/bulma-pricingtable/-/bulma-pricingtable-0.2.0.tgz#d4bb5827c6859a4303be1474644d10b1e5a579ed"
+  integrity sha512-4feDoGG5kxfzYNo+eplIbofEerO2FjwJgWoTdM1K8frU1eMHzd2Beh0Jo+18Q0N/83l+YxZydxw/xPijbCOsdQ==
 
 bulma@0.7.4:
   version "0.7.4"
