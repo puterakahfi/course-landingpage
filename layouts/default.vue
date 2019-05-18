@@ -19,6 +19,10 @@ export default {
     Footer
   },
   mounted() {
+    this.$snackbar.open(
+      `This template is still in development progress`
+    );
+
     const $navbarBurgers = Array.prototype.slice.call(
       document.querySelectorAll(".navbar-burger"),
       0

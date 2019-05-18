@@ -8,13 +8,13 @@
     <section class="has-margin-top-50 has-padding-bottom-50">
       <div class="container">
         <div class="columns">
+          <div class="column is-7">
+            <Benefits :data="benefits"/>
+          </div>
           <div class="column is-5">
             <img
               src="https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/deliveries_131a.svg"
             >
-          </div>
-          <div class="column is-7">
-            <Benefits :data="benefits"/>
           </div>
         </div>
       </div>
@@ -23,12 +23,10 @@
     <section class="has-padding-top-50 has-background-light">
       <div class="container">
         <div class="columns">
-          
           <div class="column is-6">
             <Instructors :data="instructors"/>
           </div>
           <div class="column is-6">
-
             <img
               src="https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/teaching_f1cm.svg"
               alt
@@ -38,13 +36,15 @@
       </div>
     </section>
 
-    <section class=" has-background-light">
+    <section class="has-background-light">
       <div class="container">
         <div class="columns">
           <div class="column">
-            <Testimonials :data="testimonials" class="has-margin-top-50"/>
+            <Testimonials :data="limitTestimonial" class="has-padding-top-50"/>
           </div>
         </div>
+
+        <nuxt-link to="/testimonials" class="title is-5">all testimonials</nuxt-link>
       </div>
     </section>
   </div>
@@ -72,6 +72,13 @@ export default {
     Instructors,
     Testimonials,
     Head
+  },
+  computed: {
+    limitTestimonial: function() {
+      let testi = this.testimonials;
+      testi.items = testi.items.slice(0, 3);
+      return testi;
+    }
   }
 };
 </script>

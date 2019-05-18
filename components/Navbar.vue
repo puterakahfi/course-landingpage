@@ -1,26 +1,42 @@
 <template>
-  <nav class="navbar container" role="navigation" aria-label="main navigation">
+  <nav class="navbar is-transparent container">
     <div class="navbar-brand">
-      <nuxt-link to="/" class="navbar-item is-paddingless">
-        <fa :icon="['fas', 'code']" class="fa-1x"/>&nbsp;
-        <strong>COURSE</strong> &nbsp;LANDINGPAGE
+      <nuxt-link to="/" class="navbar-item">
+        <img
+          src="https://img.icons8.com/nolan/384/code.png"
+          alt="Bulma: a modern CSS framework based on Flexbox"
+        >COURSE
       </nuxt-link>
-
-      <a
-        role="button"
-        class="navbar-burger burger"
-        aria-label="menu"
-        aria-expanded="false"
-        data-target="navbarBasicExample"
-      >
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-      </a>
+      <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
     </div>
 
-    <div id="navbarBasicExample" class="navbar-menu">
-      <div class="navbar-start"></div>
+    <div id="navbarExampleTransparentExample" class="navbar-menu">
+      <div class="navbar-start">
+        <nuxt-link to="/testimonials" class="navbar-item">testimonials</nuxt-link>
+        <nuxt-link to="/faq" class="navbar-item">FAQ</nuxt-link>
+      </div>
+
+      <div class="navbar-end">
+        <div class="navbar-item">
+          <div class="field is-grouped">
+            <p class="control">
+              <a
+                class="button is-white"
+                target="_blank"
+                href="https://github.com/puterakahfi/course-landingpage/issues"
+              >
+                <span class="icon">
+                  <fa :icon="['fab', 'github']" class="fa-2x"/>
+                </span>
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   </nav>
 </template>

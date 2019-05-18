@@ -16,7 +16,8 @@
                 <div class="titleunderline is-small"></div>
                 <br>
 
-                <strong class="title is-4">{{ item.name }}</strong><br>
+                <strong class="title is-4">{{ item.name }}</strong>
+                <br>
                 <span class="subtitle is-7">{{ item.title }} , {{ item.company }}</span>
 
                 <p

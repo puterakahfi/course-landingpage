@@ -16,7 +16,7 @@
             </div>
             <div class="media-content">
               <div class="content">
-                <strong class="title is-6 is-family-primary has-text-primary	">
+                <strong class="title is-6 is-family-primary has-text-black	">
                   <fa :icon="['fas', 'check']" class="fa-1x"/>
                   &nbsp;
                   {{ item.title }}

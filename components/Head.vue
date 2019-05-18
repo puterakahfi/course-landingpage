@@ -2,6 +2,14 @@
   <section id="head">
     <div class="columns align-items-center">
       <div class="column is-6">
+        <figure class="image">
+          <img
+            src="https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/operating_system_4lr6.svg"
+            alt="Placeholder image"
+          >
+        </figure>
+      </div>
+      <div class="column is-6">
         <section class="hero is-paddingless">
           <div class="hero-body is-paddingless">
             <div class="titleunderline"></div>
@@ -26,14 +34,6 @@
             </div>
           </div>
         </section>
-      </div>
-      <div class="column is-6">
-        <figure class="image">
-          <img
-            src="https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/operating_system_4lr6.svg"
-            alt="Placeholder image"
-          >
-        </figure>
       </div>
     </div>
   </section>

@@ -74,6 +74,16 @@
             "tags": "pertanian,peternakan",
             "title": "Senior Web Developer",
             "company": "sholeheh.com"
+        },
+        {
+            "id": "1",
+            "name": "Sugiyono",
+            "image": "https://cdn.pixabay.com/photo/2016/08/20/05/36/avatar-1606914_960_720.png",
+            "description": "CROWDE membantu permodalan petani dengan sistem permodalan bersama oleh Teman CROWDE (pemodal) melalui platform situs CROWDE.CO.",
+            "url": "https://www.crowde.co/",
+            "tags": "pertanian,peternakan",
+            "title": "Senior Web Developer",
+            "company": "sholeheh.com"
         }
     ]
 }
