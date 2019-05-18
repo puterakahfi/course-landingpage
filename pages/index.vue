@@ -36,14 +36,21 @@
       </div>
     </section>
 
-
     <section class="has-padding-50 has-background-white">
-    <div class="container">
-      <h1 class="title is-3 has-text-centered	"> Price </h1>
-    <Pricing />
-    </div>
+      <div class="container">
+        <div class="columns">
+          <div class="column is-4">
+            <div class="titleunderline"></div>
 
-  </section>
+            <h1 class="title is-3">Price</h1>
+            <p class="has-text-purple">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.</p>
+          </div>
+          <div class="column is-8">
+            <Pricing/>
+          </div>
+        </div>
+      </div>
+    </section>
     <section class="has-background-light">
       <div class="container has-padding-bottom-50">
         <div class="columns">
@@ -52,7 +59,7 @@
           </div>
         </div>
 
-        <nuxt-link to="/testimonials" class="title is-5"> >> all testimonials</nuxt-link>
+        <nuxt-link to="/testimonials" class="title is-5">>> all testimonials</nuxt-link>
       </div>
     </section>
   </div>
