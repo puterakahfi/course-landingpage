@@ -15,12 +15,11 @@
             <div class="titleunderline"></div>
             <h2
               class="subtitle has-text-grey	 has-margin-bottom-20 is-5 is-paddingless is-family-secondary  has-text-purple"
-            >Your awesome subtitle here</h2>
-            <h1 class="title is-1 is-family-primary">Your awesome course title is here.</h1>
+            >{{data.subtitle}}</h2>
+            <h1 class="title is-1 is-family-primary">{{ data.title }}</h1>
 
             <p class="is-size-6 has-text-purple is-family-secondary has-text-weight-medium">
-              <b>Your awesome description here</b>
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+              <span v-html="data.description"></span>
               <br>
             </p>
             <br>
@@ -42,3 +41,11 @@
     </div>
   </section>
 </template>
+
+
+<script>
+export default {
+  props: ["data"]
+};
+</script>
+

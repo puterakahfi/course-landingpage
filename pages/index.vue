@@ -1,7 +1,7 @@
 <template>
   <div class="has-background-white has-padding-top-50">
     <section class="container">
-      <Head/>
+      <Head :data="head" />
 
       <hr>
     </section>
@@ -89,12 +89,15 @@ import testimonials from "~/static/data/testimonials.json";
 import benefits from "~/static/data/benefits.json";
 import instructorsData from "~/static/data/instructors.json";
 
+import head from "~/static/data/head.json";
+
 export default {
   data() {
     return {
       testimonials: testimonials,
       benefits: benefits,
-      instructors: instructorsData
+      instructors: instructorsData,
+      head: head
     };
   },
   components: {
