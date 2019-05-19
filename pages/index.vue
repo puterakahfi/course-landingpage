@@ -133,7 +133,7 @@ export default {
   computed: {
     limitTestimonial: function() {
       let testi = this.testimonials;
-      testi.items = testi.items.slice(0, 3);
+      testi.items = testi.items.slice(0, 4);
       return testi;
     }
   }

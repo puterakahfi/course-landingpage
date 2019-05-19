@@ -1,7 +1,7 @@
 <template>
   <section class="accordions">
     <article class="accordion has-margin-bottom-10" :key="item.label" v-for="item in data.items">
-      <div class="accordion-header toggle has-background-white">
+      <div class="accordion-header toggle has-background-white has-text-weight-medium">
         <p>{{ item.title }}</p>
       </div>
       <div class="accordion-body">
