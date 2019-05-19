@@ -2,7 +2,7 @@
    <div class="pricing-table">
 
 
-  <div class="pricing-plan is-warning  is-active">
+  <div class="pricing-plan is-primary  is-active">
     <div class="plan-header">Startups</div>
     <div class="plan-price"><span class="plan-price-amount"><span class="plan-price-currency">$</span>40</span>/month</div>
     <div class="plan-items">

@@ -1,6 +1,10 @@
 <template>
   <section class id="instructors">
-    <h1 class="title is-3">{{ data.label }}</h1>
+    <div class="is-inline-flex">
+      <img class="image is-48x48" src="https://img.icons8.com/nolan/384/training.png">
+
+      <h1 class="title is-3 has-margin-top-5">{{ data.label }}</h1>
+    </div>
 
     <div class="columns is-multiline">
       <div class="column" v-for="instructor in data.items" :key="instructor.id">
@@ -15,23 +19,20 @@
               <div class="media-content">
                 <div class="titleunderline is-small"></div>
 
-                <p class="title is-3">{{ instructor.name }}</p>
+                <p class="title is-2">{{ instructor.name }}</p>
                 <div class="subtitle is-6 has-margin-top-5">
                   <nav class="level is-mobile has-margin-left-10">
                     <div class="level-left">
-                      <a class="links level-item" aria-label="reply">
+                      <a
+                        :href="link.url"
+                        target="_blank"
+                        class="links level-item"
+                        aria-label="reply"
+                        :key="link.label"
+                        v-for="link in instructor.links"
+                      >
                         <span class="icon is-small">
-                          <fa :icon="['fab', 'facebook']" class="facebook fa-2x"/>&nbsp;
-                        </span>
-                      </a>
-                      <a class="level-item" aria-label="retweet">
-                        <span class="icon is-small">
-                          <fa :icon="['fab', 'github']" class="fa-2x"/>&nbsp;
-                        </span>
-                      </a>
-                      <a class="level-item" aria-label="like">
-                        <span class="icon is-small">
-                          <fa :icon="['fab', 'twitter']" class="fa-2x"/>&nbsp;
+                          <fa :icon="[link.icon.category, link.icon.icon]" class="facebook fa-2x"/>&nbsp;
                         </span>
                       </a>
                     </div>
@@ -41,7 +42,7 @@
             </div>
 
             <div class="content">
-              <span  class="has-text-grey" v-html="instructor.description"></span>
+              <span class="has-text-grey" v-html="instructor.description"></span>
             </div>
           </div>
         </div>
@@ -86,11 +87,10 @@
 .card {
   box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.04), 0 2px 20px 0 rgba(0, 0, 0, 0.06);
   &:hover {
-    box-shadow: none;
+    // box-shadow: none;
     transform: none;
   }
 }
-
 </style>
 
 

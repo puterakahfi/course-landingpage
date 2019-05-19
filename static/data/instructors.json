@@ -3,7 +3,7 @@
     "items": [
         {
             "id": "amartha",
-            "name": "John Doe",
+            "name": "Putera Kahfi",
             "image": "https://img.icons8.com/bubbles/384/administrator-male.png",
             "description": "Your awesome  <b>description </b> here Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur",
             "url": "https://amartha.com/",
@@ -11,7 +11,7 @@
             "links": [
                 {
                     "label": "instagram",
-                    "url": "https://www.instagram.com/amarthaid/",
+                    "url": "https://www.instagram.com/puterakahfi/",
                     "icon": {
                         "category": "fab",
                         "icon": "instagram"
@@ -19,26 +19,18 @@
                 },
                 {
                     "label": "facebook",
-                    "url": "https://www.facebook.com/amarthaid",
+                    "url": "https://www.facebook.com/codejunior",
                     "icon": {
                         "category": "fab",
                         "icon": "facebook"
                     }
                 },
                 {
-                    "label": "twitter",
-                    "url": "https://twitter.com/amarthaid",
+                    "label": "github",
+                    "url": "https://github.com/puterakahfi",
                     "icon": {
                         "category": "fab",
-                        "icon": "twitter"
-                    }
-                },
-                {
-                    "label": "youtube",
-                    "url": "https://www.youtube.com/channel/UCLcoqQmklkda3O4G60oIPRQ",
-                    "icon": {
-                        "category": "fab",
-                        "icon": "youtube"
+                        "icon": "github"
                     }
                 }
             ]

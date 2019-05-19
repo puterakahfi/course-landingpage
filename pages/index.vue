@@ -42,7 +42,7 @@
           <div class="column is-4">
             <div class="titleunderline"></div>
 
-            <h1 class="title is-3">Price</h1>
+            <h1 class="title is-3"> <img class="image is-32x32 is-pulled-left	has-padding-top-5" src="https://img.icons8.com/nolan/384/price-tag-euro.png" alt=""> Price</h1>
             <p class="has-text-purple">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.</p>
           </div>
           <div class="column is-8">

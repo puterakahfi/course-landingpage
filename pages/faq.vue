@@ -7,7 +7,7 @@
       <input type="search" autocomplete="on" placeholder="Search the Help Center" class="input has-margin-bottom-10">
       <div class="columns is-multiline">
         <div class="column is-6" v-for="item in faqs.items" :key="item.id">
-          <div class="box">
+          <div class="box has-background-light	">
             <article class="media">
               <div class="media-content">
                 <div class="content">
@@ -27,6 +27,11 @@
     </div>
   </section>
 </template>
+
+
+<style lang="scss" scoped>
+
+</style>
 
 
 <script>

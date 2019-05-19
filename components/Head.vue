@@ -31,6 +31,11 @@
                   <fa :icon="['fas', 'download']" class="fa-1x"/>&nbsp;CTA Button
                 </span>
               </a>
+               <a class="button is-success is-medium" href="/docs/fintechOJK.xlsx" target="_blank">
+                <span class="is-size-6">
+                  <fa :icon="['fas', 'pdf']" class="fa-1x"/>&nbsp;CTA Button again
+                </span>
+              </a>
             </div>
           </div>
         </section>
