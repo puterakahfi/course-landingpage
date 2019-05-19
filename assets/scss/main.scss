@@ -1,55 +1,7 @@
 @import "helpers.scss";
 @import "bulma.scss";
 
-body {
-}
 
-.card {
-  position: relative;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  overflow: hidden;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-  -webkit-box-align: start;
-  -webkit-align-items: flex-start;
-  -ms-flex-align: start;
-  align-items: flex-start;
-  border: 1px none #e6ecf1;
-  border-radius: 6px;
-  background-color: #fff;
-  border: none;
-  transition: all 0.2s ease-in-out;
-  box-shadow: none;
-
-  &:hover {
-    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.04),
-      0 2px 20px 0 rgba(0, 0, 0, 0.06);
-    transform: scale(1.1);
-  }
-
-  .titleunderline {
-    display: inline-block;
-    width: 30px;
-    height: 5px;
-    margin-top: 8px;
-    margin-bottom: 8px;
-    border-radius: 20px;
-    background-color: #3884ff;
-  }
-}
 
 .titleunderline {
   display: inline-block;

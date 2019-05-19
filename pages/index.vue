@@ -1,7 +1,7 @@
 <template>
   <div class="has-background-white has-padding-top-50">
     <section class="container">
-      <Head :data="head" />
+      <Head :data="head"/>
 
       <hr>
     </section>
@@ -36,26 +36,44 @@
       </div>
     </section>
 
+    <section class="has-background-light has-padding-top-50 has-padding-bottom-50">
+      <div class="container ">
+        <div class="columns is-centered">
+          <div class="column is-4">
+            <img
+              src="https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/timeline_9u4u.svg"
+              alt
+            >
+          </div>
+          <div class="column is-6-fullhd is-6-widescreen is-10-tablet">
+            <h1 class="title is-4 has-text-left">{{modules.title}}</h1>
+            <Modules :data="modules"/>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section class="has-padding-50 has-background-white">
       <div class="container">
         <div class="columns">
           <div class="column is-4">
             <div class="content">
-              <div class="titleunderline is-marginless is-paddingless"></div>
-
-              <h1 class="title is-3 has-margin-top-10">
+              <div class="titleunderline is-marginless is-paddingless is-small"></div>
+              <br>
+              <div class="is-inline-flex">
                 <img
-                  class="image is-32x32 is-pulled-left has-padding-top-5"
+                  class="image is-32x32 is-pulled-left"
                   src="https://img.icons8.com/nolan/384/price-tag-euro.png"
                   alt
-                > Price
-              </h1>
+                >
+                <h1 class="title is-4 is-marginless">Price</h1>
+              </div>
+
               <p
                 class="has-text-purple"
               >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.</p>
 
               <br>
-              
             </div>
           </div>
           <div class="column is-8">
@@ -82,12 +100,15 @@
 import Benefits from "~/components/Benefits.vue";
 import Pricing from "~/components/Pricing.vue";
 
+import Modules from "~/components/Modules.vue";
+
 import Instructors from "~/components/Instructors.vue";
 import Head from "~/components/Head.vue";
 import Testimonials from "~/components/Testimonials.vue";
 import testimonials from "~/static/data/testimonials.json";
 import benefits from "~/static/data/benefits.json";
 import instructorsData from "~/static/data/instructors.json";
+import modules from "~/static/data/modules.json";
 
 import head from "~/static/data/head.json";
 
@@ -97,7 +118,8 @@ export default {
       testimonials: testimonials,
       benefits: benefits,
       instructors: instructorsData,
-      head: head
+      head: head,
+      modules: modules
     };
   },
   components: {
@@ -105,7 +127,8 @@ export default {
     Instructors,
     Testimonials,
     Head,
-    Pricing
+    Pricing,
+    Modules
   },
   computed: {
     limitTestimonial: function() {

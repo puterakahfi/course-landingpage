@@ -1,9 +1,9 @@
 <template>
   <section class id="instructors">
     <div class="is-inline-flex">
-      <img class="image is-48x48" src="https://img.icons8.com/nolan/384/training.png">
+      <img class="image is-32x32" src="https://img.icons8.com/nolan/384/training.png">
 
-      <h1 class="title is-3 has-margin-top-5">{{ data.label }}</h1>
+      <h1 class="title is-4 ">{{ data.label }}</h1>
     </div>
 
     <div class="columns is-multiline">

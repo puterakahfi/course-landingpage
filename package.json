@@ -16,6 +16,8 @@
     "@fortawesome/free-brands-svg-icons": "5.7.1",
     "@fortawesome/free-solid-svg-icons": "5.7.1",
     "@fortawesome/vue-fontawesome": "0.1.5",
+    "bulma": "^0.7.5",
+    "bulma-accordion": "^2.0.1",
     "bulma-extensions": "^6.2.6",
     "bulma-helpers": "^0.3.7",
     "bulma-pricingtable": "^0.2.0",
@@ -24,7 +26,8 @@
     "nuxt": "^2.4.0",
     "nuxt-buefy": "^0.3.6",
     "nuxt-fontawesome": "0.4.0",
-    "sass-loader": "^7.1.0"
+    "sass-loader": "^7.1.0",
+    "vue-bulma-accordion": "^0.4.8"
   },
   "devDependencies": {
     "nodemon": "^1.18.9",
