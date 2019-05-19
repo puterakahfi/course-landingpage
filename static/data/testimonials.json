@@ -4,7 +4,7 @@
         {
             "id": "amartha",
             "name": "Sutrisno",
-            "image": "https://cdn.pixabay.com/photo/2018/05/19/22/03/man-3414477_960_720.png",
+            "image": "https://img.icons8.com/cotton/384/user.png",
             "description": "fintech peer to peer lending untuk menghubungkan langsung pengusaha mikro dengan pemodal secara online",
             "url": "https://amartha.com/",
             "tags": "pertanian",
@@ -13,7 +13,7 @@
             "links": [
                 {
                     "label": "instagram",
-                    "url": "https://www.instagram.com/amarthaid/",
+                    "url": "https://www.instagram.com/puterakahfi/",
                     "icon": {
                         "category": "fab",
                         "icon": "instagram"
@@ -21,26 +21,18 @@
                 },
                 {
                     "label": "facebook",
-                    "url": "https://www.facebook.com/amarthaid",
+                    "url": "https://www.facebook.com/codejunior",
                     "icon": {
                         "category": "fab",
                         "icon": "facebook"
                     }
                 },
                 {
-                    "label": "twitter",
-                    "url": "https://twitter.com/amarthaid",
+                    "label": "github",
+                    "url": "https://github.com/puterakahfi",
                     "icon": {
                         "category": "fab",
-                        "icon": "twitter"
-                    }
-                },
-                {
-                    "label": "youtube",
-                    "url": "https://www.youtube.com/channel/UCLcoqQmklkda3O4G60oIPRQ",
-                    "icon": {
-                        "category": "fab",
-                        "icon": "youtube"
+                        "icon": "github"
                     }
                 }
             ]
@@ -73,17 +65,7 @@
             "url": "https://www.crowde.co/",
             "tags": "pertanian,peternakan",
             "title": "Senior Web Developer",
-            "company": "sholeheh.com"
-        },
-        {
-            "id": "1",
-            "name": "Sugiyono",
-            "image": "https://cdn.pixabay.com/photo/2016/08/20/05/36/avatar-1606914_960_720.png",
-            "description": "CROWDE membantu permodalan petani dengan sistem permodalan bersama oleh Teman CROWDE (pemodal) melalui platform situs CROWDE.CO.",
-            "url": "https://www.crowde.co/",
-            "tags": "pertanian,peternakan",
-            "title": "Senior Web Developer",
-            "company": "sholeheh.com"
+            "company": "sholehah.com"
         }
     ]
 }

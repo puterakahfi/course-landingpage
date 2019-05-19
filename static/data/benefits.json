@@ -5,65 +5,40 @@
         "id": "amartha",
         "title": "Get latest technology",
         "image": "",
-        "description": "fintech peer to peer lending untuk menghubungkan langsung pengusaha mikro dengan pemodal secara online",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed finibus dui, sed consequat metus. Ut vel ligula in leo facilisis suscipit aliquet eu enim. Sed metus elit, aliquet vel turpis vel, rhoncus vulputate lorem. ",
         "url": "https://amartha.com/",
-        "tags": "pertanian",
-        "links": [
-            {
-                "label": "instagram",
-                "url": "https://www.instagram.com/amarthaid/",
-                "icon": {
-                    "category": "fab",
-                    "icon": "instagram"
-                }
-            },
-            {
-                "label": "facebook",
-                "url": "https://www.facebook.com/amarthaid",
-                "icon": {
-                    "category": "fab",
-                    "icon": "facebook"
-                }
-            },
-            {
-                "label": "twitter",
-                "url": "https://twitter.com/amarthaid",
-                "icon": {
-                    "category": "fab",
-                    "icon": "twitter"
-                }
-            },
-            {
-                "label": "youtube",
-                "url": "https://www.youtube.com/channel/UCLcoqQmklkda3O4G60oIPRQ",
-                "icon": {
-                    "category": "fab",
-                    "icon": "youtube"
-                }
-            }
-        ]
+        "tags": "pertanian"
+        
     },
     {
-        "id": "ammana",
+        "id": "",
         "title": "Active chat group",
         "image": "",
-        "description": "Ammana sebagai Fintek Syariah Pertama di Indonesia hadir untuk mendukung kemajuan para pelaku UMKM dengan cara menjembatani para pendana/lender dengan para peminjam/borrower",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed finibus dui, sed consequat metus. Ut vel ligula in leo facilisis suscipit aliquet eu enim. Sed metus elit, aliquet vel turpis vel, rhoncus vulputate lorem. ",
         "url": "https://ammana.id/",
         "tags": "pembiayaan, umkm"
     },
     {
-        "id": "tanifund",
+        "id": "",
         "title": "Free T-Shirt",
+        "image": "",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed finibus dui, sed consequat metus. Ut vel ligula in leo facilisis suscipit aliquet eu enim. Sed metus elit, aliquet vel turpis vel, rhoncus vulputate lorem. ",
+        "url": "https://bantuternak.com",
+        "tags": "peternakan"
+    },
+    {
+        "id": "",
+        "title": "Free Consultation",
         "image": "",
         "description": "Bantuternak adalah Aplikasi investasi digital yang berfokus memberdayakan peternak melalui penyaluran modal dan pendampingan peternak.",
         "url": "https://bantuternak.com",
         "tags": "peternakan"
     },
     {
-        "id": "tanifund",
-        "title": "Free Consultation",
+        "id": "",
+        "title": "Your other benefit",
         "image": "",
-        "description": "Bantuternak adalah Aplikasi investasi digital yang berfokus memberdayakan peternak melalui penyaluran modal dan pendampingan peternak.",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed finibus dui, sed consequat metus. Ut vel ligula in leo facilisis suscipit aliquet eu enim. Sed metus elit, aliquet vel turpis vel, rhoncus vulputate lorem. ",
         "url": "https://bantuternak.com",
         "tags": "peternakan"
     }

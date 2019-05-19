@@ -19,7 +19,7 @@
               <div class="media-content">
                 <div class="titleunderline is-small"></div>
 
-                <p class="title is-2">{{ instructor.name }}</p>
+                <p class="title is-2 has-margin-bottom-10">{{ instructor.name }}</p>
                 <div class="subtitle is-6 has-margin-top-5">
                   <nav class="level is-mobile has-margin-left-10">
                     <div class="level-left">
@@ -42,7 +42,7 @@
             </div>
 
             <div class="content">
-              <span class="has-text-grey" v-html="instructor.description"></span>
+              <span class="has-text-purple " v-html="instructor.description"></span>
             </div>
           </div>
         </div>

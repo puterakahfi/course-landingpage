@@ -3,9 +3,9 @@
     <div class="navbar-brand">
       <nuxt-link to="/" class="navbar-item has-text-weight-bold">
         <img
-          src="https://img.icons8.com/nolan/384/code.png"
-          alt="Bulma: a modern CSS framework based on Flexbox"
-        >COURSE
+          src="https://img.icons8.com/dusk/384/e-learning.png"
+          alt="Course: Course awesome landingpage"
+        > COURSE
       </nuxt-link>
       <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
         <span></span>

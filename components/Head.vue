@@ -13,13 +13,12 @@
         <section class="hero is-paddingless">
           <div class="hero-body is-paddingless">
             <div class="titleunderline"></div>
+            <h2
+              class="subtitle has-text-grey	 has-margin-bottom-20 is-5 is-paddingless is-family-secondary  has-text-purple"
+            >Your awesome subtitle here</h2>
+            <h1 class="title is-1 is-family-primary">Your awesome course title is here.</h1>
 
-            <h1 class="title is-1 is-family-primary">your awesome course title is here.</h1>
-            <h1
-              class="subtitle has-margin-bottom-20 is-5 is-paddingless is-family-secondary"
-            >Your awesome subtitle here</h1>
-
-            <p class="is-size-6 has-text-grey is-family-secondary">
+            <p class="is-size-6 has-text-purple is-family-secondary has-text-weight-medium">
               <b>Your awesome description here</b>
               "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
               <br>
@@ -31,7 +30,7 @@
                   <fa :icon="['fas', 'download']" class="fa-1x"/>&nbsp;CTA Button
                 </span>
               </a>
-               <a class="button is-success is-medium" href="/docs/fintechOJK.xlsx" target="_blank">
+              <a class="button is-success is-medium" href="/docs/fintechOJK.xlsx" target="_blank">
                 <span class="is-size-6">
                   <fa :icon="['fas', 'pdf']" class="fa-1x"/>&nbsp;CTA Button again
                 </span>

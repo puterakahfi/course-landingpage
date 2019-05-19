@@ -15,15 +15,13 @@
             </div>
             <div class="media-content">
               <div class="content">
-                <strong class="title is-6 is-family-primary has-text-grey	has-padding-5	">
-                  <fa :icon="['fas', 'check']" class="fa-1x"/>
-                  &nbsp;
-                  {{ item.title }}
-                </strong>
+                <strong
+                  class="title is-5 is-family-primary has-text-grey-dark "
+                >{{ item.title }}</strong>
 
                 <p
                   class="is-size-6 has-text-purple is-family-secondary has-margin-top-10"
-                >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.</p>
+                >{{ item.description }}</p>
               </div>
             </div>
           </article>
