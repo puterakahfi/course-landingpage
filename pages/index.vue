@@ -37,7 +37,7 @@
     </section>
 
     <section class="has-background-light has-padding-top-50 has-padding-bottom-50">
-      <div class="container ">
+      <div class="container">
         <div class="columns is-centered">
           <div class="column is-4">
             <img
@@ -93,13 +93,27 @@
         <nuxt-link to="/testimonials" class="title is-5">>> all testimonials</nuxt-link>
       </div>
     </section>
+
+    <section class="has-padding-top-50 has-padding-bottom-50 has-background-light">
+      <div class="columns is-centered">
+        <div class="column is-3">
+          <img
+            src="https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/subscriber_vabu.svg"
+            alt
+          >
+        </div>
+        <div class="column is-6 has-padding-left-50">
+          <Newsletter class="container"/>
+        </div>
+      </div>
+    </section>
   </div>
 </template>
 
 <script>
 import Benefits from "~/components/Benefits.vue";
 import Pricing from "~/components/Pricing.vue";
-
+import Newsletter from "~/components/Newsletter.vue";
 import Modules from "~/components/Modules.vue";
 
 import Instructors from "~/components/Instructors.vue";
@@ -128,7 +142,8 @@ export default {
     Testimonials,
     Head,
     Pricing,
-    Modules
+    Modules,
+    Newsletter
   },
   computed: {
     limitTestimonial: function() {

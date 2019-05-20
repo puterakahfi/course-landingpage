@@ -25,9 +25,8 @@
       </a>
       <br>
       <div class="is-inline is-size-7">
-        <a href="ddd">home</a> -
-        <a href="ddd">bulma.io</a> -
-        <a href="ddd">nuxtjs.com</a>
+        <a href="https://bulma.io">bulma.io</a> -
+        <a href="https://nuxtjs.org/">nuxtjs.com</a>
       </div>
     </div>
   </footer>
@@ -36,5 +35,20 @@
 <style lang="scss" scoped>
 footer {
   background: #171b2b;
+
+  a {
+    color: turquoise;
+    &:hover{
+      color: white;
+    }
+  }
 }
 </style>
+
+
+
+<script>
+export default {
+  props: ["data"]
+};
+</script>

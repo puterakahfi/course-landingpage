@@ -42,7 +42,8 @@
 </template>
 
 
-<style scoped>
+
+<style scoped lang="scss">
 .navbar {
   left: 0;
   right: 0;
@@ -50,5 +51,8 @@
   padding-top: 20px;
   padding-bottom: 20px;
   height: auto;
+
+
 }
+
 </style>
