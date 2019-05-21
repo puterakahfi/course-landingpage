@@ -3,10 +3,7 @@
     <div class="columns align-items-center">
       <div class="column is-6">
         <figure class="image">
-          <img
-            :src="data.image"
-            alt="Placeholder image"
-          >
+          <img :src="data.image" alt="Placeholder image">
         </figure>
       </div>
       <div class="column is-6">
@@ -14,7 +11,7 @@
           <div class="hero-body is-paddingless">
             <div class="titleunderline"></div>
             <h2
-              class="subtitle has-text-grey	 has-margin-bottom-20 is-5 is-paddingless is-family-secondary  has-text-purple"
+              class="subtitle has-text-grey has-margin-bottom-20 is-5 is-paddingless is-family-secondary has-text-purple"
             >{{data.subtitle}}</h2>
             <h1 class="title is-1 is-family-primary">{{ data.title }}</h1>
 
@@ -24,16 +21,22 @@
             </p>
             <br>
             <div class="cta">
-              <a class="button is-primary is-medium" href="/docs/fintechOJK.xlsx" target="_blank">
+              <a
+                :href="link.url"
+                target="_blank"
+                :class="'button '+link.attr.class+' is-medium has-margin-5'"
+                aria-label="reply"
+                :key="link.label"
+                v-for="link in data.links"
+              >
                 <span class="is-size-6">
-                  <fa :icon="['fas', 'download']" class="fa-1x"/>&nbsp;CTA Button
+                  <fa v-if="typeof link.icon !== 'undefined'" :icon="[link.icon.category, link.icon.icon]" class="fa-1x"/>
+                  &nbsp; 
+                  {{ link.label }}
                 </span>
               </a>
-              <a class="button is-success is-medium" href="/docs/fintechOJK.xlsx" target="_blank">
-                <span class="is-size-6">
-                  <fa :icon="['fas', 'pdf']" class="fa-1x"/>&nbsp;CTA Button again
-                </span>
-              </a>
+
+          
             </div>
           </div>
         </section>

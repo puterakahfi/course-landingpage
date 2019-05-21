@@ -1,6 +1,33 @@
 {
     "title": "Your awesome course title is here",
     "subtitle": "your awesome subtitle is here",
-    "image":"https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/operating_system_4lr6.svg",
-    "description": " <b class='has-text-primary'>Your awesome description here</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+    "image": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/operating_system_4lr6.svg",
+    "description": " <b class='has-text-primary'>Your awesome description here</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "links": [
+        {
+            "label": "Download Sample",
+            "url": "https://www.instagram.com/puterakahfi/",
+            "icon": {
+                "category": "fas",
+                "icon": "download"
+            },
+            "attr": {
+                "class": " is-primary"
+            }
+        },
+        {
+            "label": "CTA",
+            "url": "https://www.instagram.com/puterakahfi/",
+            "icon": {
+                "category": "fab",
+                "icon": "facebook",
+                "attr": {
+                    "class": " is-primary"
+                }
+            },
+            "attr": {
+                "class": " is-success"
+            }
+        }
+    ]
 }

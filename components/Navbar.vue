@@ -21,21 +21,15 @@
       </div>
 
       <div class="navbar-end">
-        <div class="navbar-item">
-          <div class="field is-grouped">
-            <p class="control">
-              <a
-                class="button is-white"
-                target="_blank"
-                href="https://github.com/puterakahfi/course-landingpage/issues"
-              >
-                <span class="icon">
-                  <fa :icon="['fab', 'github']" class="fa-2x"/>
-                </span>
-              </a>
-            </p>
-          </div>
-        </div>
+        <a
+          class="navbar-item is-white"
+          target="_blank"
+          href="https://github.com/puterakahfi/course-landingpage/issues"
+        >
+          <span class="icon">
+            <fa :icon="['fab', 'github']" class="fa-2x"/>
+          </span>
+        </a>
       </div>
     </div>
   </nav>
@@ -51,8 +45,5 @@
   padding-top: 20px;
   padding-bottom: 20px;
   height: auto;
-
-
 }
-
 </style>

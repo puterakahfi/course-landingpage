@@ -8,9 +8,9 @@
         </span>/month
       </div>
       <div class="plan-items">
-        <div class="plan-item">20GB Storage</div>
-        <div class="plan-item">25 Domains</div>
-        <div class="plan-item">1TB Bandwidth</div>
+        <div class="plan-item">Modules</div>
+        <div class="plan-item">free access materials</div>
+        <div class="plan-item">full support</div>
         <div class="plan-item">-</div>
       </div>
       <div class="plan-footer">
@@ -26,10 +26,10 @@
         </span>/month
       </div>
       <div class="plan-items">
-        <div class="plan-item">200GB Storage</div>
-        <div class="plan-item">50 Domains</div>
-        <div class="plan-item">1TB Bandwidth</div>
-        <div class="plan-item">-</div>
+        <div class="plan-item">Modules</div>
+        <div class="plan-item">Free access materials</div>
+        <div class="plan-item">full support</div>
+        <div class="plan-item">subdomain</div>
       </div>
       <div class="plan-footer">
         <button class="button is-fullwidth">Choose</button>
@@ -44,14 +44,14 @@
         </span>/month
       </div>
       <div class="plan-items">
-        <div class="plan-item">200GB Storage</div>
-        <div class="plan-item">50 Domains</div>
-        <div class="plan-item">1TB Bandwidth</div>
-        <div class="plan-item">100 Email Boxes</div>
+        <div class="plan-item">Moduless</div>
+        <div class="plan-item">Free access materials</div>
+        <div class="plan-item">full support</div>
+        <div class="plan-item">subdomain</div>
         <div class="plan-item">Full Support</div>
       </div>
       <div class="plan-footer">
-        <button class="button is-fullwidth">Choose</button>
+        <button class="button is-fullwidth">CALL</button>
       </div>
     </div>
   </div>

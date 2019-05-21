@@ -5,7 +5,7 @@
     <h1 class="title is-3">{{ data.title }}</h1>
 
     <div class="columns is-multiline">
-      <div class="column is-12" v-for="item in data.items" :key="item.id">
+      <div class="column is-12" v-for="item in data.items" :key="item.title">
         <div class="box is-paddingless">
           <article class="media">
             <div v-if="item.image !=='' " class="media-left">

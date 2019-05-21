@@ -1,47 +1,35 @@
 {
-
-    "title" : "what benefit for you",
-    "items":[{
-        "id": "amartha",
-        "title": "Get latest technology",
-        "image": "",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed finibus dui, sed consequat metus. Ut vel ligula in leo facilisis suscipit aliquet eu enim. Sed metus elit, aliquet vel turpis vel, rhoncus vulputate lorem. ",
-        "url": "https://amartha.com/",
-        "tags": "pertanian"
-        
-    },
-    {
-        "id": "",
-        "title": "Active chat group",
-        "image": "",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed finibus dui, sed consequat metus. Ut vel ligula in leo facilisis suscipit aliquet eu enim. Sed metus elit, aliquet vel turpis vel, rhoncus vulputate lorem. ",
-        "url": "https://ammana.id/",
-        "tags": "pembiayaan, umkm"
-    },
-    {
-        "id": "",
-        "title": "Free T-Shirt",
-        "image": "",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed finibus dui, sed consequat metus. Ut vel ligula in leo facilisis suscipit aliquet eu enim. Sed metus elit, aliquet vel turpis vel, rhoncus vulputate lorem. ",
-        "url": "https://bantuternak.com",
-        "tags": "peternakan"
-    },
-    {
-        "id": "",
-        "title": "Free Consultation",
-        "image": "",
-        "description": "Bantuternak adalah Aplikasi investasi digital yang berfokus memberdayakan peternak melalui penyaluran modal dan pendampingan peternak.",
-        "url": "https://bantuternak.com",
-        "tags": "peternakan"
-    },
-    {
-        "id": "",
-        "title": "Your other benefit",
-        "image": "",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed finibus dui, sed consequat metus. Ut vel ligula in leo facilisis suscipit aliquet eu enim. Sed metus elit, aliquet vel turpis vel, rhoncus vulputate lorem. ",
-        "url": "https://bantuternak.com",
-        "tags": "peternakan"
-    }
-]
-
+    "title": "what benefit for you",
+    "items": [
+        {
+            "id": "amartha",
+            "title": "Get latest technology",
+            "image": "",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed finibus dui, sed consequat metus. Ut vel ligula in leo facilisis suscipit aliquet eu enim. Sed metus elit, aliquet vel turpis vel, rhoncus vulputate lorem. "
+        },
+        {
+            "id": "",
+            "title": "Active chat group",
+            "image": "",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed finibus dui, sed consequat metus. Ut vel ligula in leo facilisis suscipit aliquet eu enim. Sed metus elit, aliquet vel turpis vel, rhoncus vulputate lorem. "
+        },
+        {
+            "id": "",
+            "title": "Free T-Shirt",
+            "image": "",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed finibus dui, sed consequat metus. Ut vel ligula in leo facilisis suscipit aliquet eu enim. Sed metus elit, aliquet vel turpis vel, rhoncus vulputate lorem. "
+        },
+        {
+            "id": "",
+            "title": "Free Consultation",
+            "image": "",
+            "description": "Bantuternak adalah Aplikasi investasi digital yang berfokus memberdayakan peternak melalui penyaluran modal dan pendampingan peternak."
+        },
+        {
+            "id": "",
+            "title": "Your other benefit",
+            "image": "",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed finibus dui, sed consequat metus. Ut vel ligula in leo facilisis suscipit aliquet eu enim. Sed metus elit, aliquet vel turpis vel, rhoncus vulputate lorem. "
+        }
+    ]
 }
