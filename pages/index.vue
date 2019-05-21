@@ -20,7 +20,7 @@
       </div>
     </section>
 
-    <section class="has-padding-top-50 has-background-light">
+    <section class="has-padding-top-50 ">
       <div class="container">
         <div class="columns">
           <div class="column is-6">
@@ -36,7 +36,7 @@
       </div>
     </section>
 
-    <section class="has-background-light has-padding-top-50 has-padding-bottom-50">
+    <section class=" has-padding-top-50 has-padding-bottom-50">
       <div class="container">
         <div class="columns is-centered">
           <div class="column is-4">
@@ -82,7 +82,7 @@
         </div>
       </div>
     </section>
-    <section class="has-background-light">
+    <section class="">
       <div class="container has-padding-bottom-50">
         <div class="columns">
           <div class="column">
