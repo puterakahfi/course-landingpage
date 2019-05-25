@@ -103,7 +103,7 @@
           >
         </div>
         <div class="column is-6 has-padding-left-50">
-          <Newsletter class="container"/>
+          <Newsletter class="container" :data="newsletter"/>
         </div>
       </div>
     </section>
@@ -123,6 +123,8 @@ import testimonials from "~/static/data/testimonials.json";
 import benefits from "~/static/data/benefits.json";
 import instructorsData from "~/static/data/instructors.json";
 import modules from "~/static/data/modules.json";
+import newsletter from "~/static/data/newsletter.json";
+
 
 import head from "~/static/data/head.json";
 
@@ -133,7 +135,8 @@ export default {
       benefits: benefits,
       instructors: instructorsData,
       head: head,
-      modules: modules
+      modules: modules,
+      newsletter:newsletter
     };
   },
   components: {

@@ -1,22 +1,26 @@
-@import "helpers.scss";
-@import "bulma.scss";
+@import "_helpers.scss";
+@import "_bulma.scss";
 
 
 
 .titleunderline {
   display: inline-block;
   width: 70px;
-  height: 8px;
-  margin-top: 8px;
-  margin-bottom: 8px;
+  height: 4px;
   border-radius: 20px;
   background-color: #3884ff;
 
-  &.is-small {
-    width: 40px;
-    height: 5px;
+  &.is-large {
+    width: 90px;
+    height: 12px;
+  }
+
+  &.is-medium {
+    width: 70px;
+    height: 8px;
   }
 }
+
 
 .title {
   color: #444f60;

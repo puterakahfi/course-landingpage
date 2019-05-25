@@ -5,12 +5,7 @@
         <p>{{ item.title }}</p>
       </div>
       <div class="accordion-body">
-        <div class="accordion-content has-text-purple is-size-6">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          <strong>Pellentesque risus mi</strong>, tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum
-          <a>felis venenatis</a> efficitur. Aenean ac
-          <em>eleifend lacus</em>, in mollis lectus. Donec sodales, arcu et sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a neque. Donec dui urna, vehicula et sem eget, facilisis sodales sem.
-        </div>
+        <div class="accordion-content has-text-purple is-size-6" v-html="item.description"></div>
       </div>
     </article>
   </section>
@@ -36,6 +31,9 @@ export default {
 <style lang="scss" scoped>
 .accordions {
   .accordion {
+    box-shadow: 0 4px 5px 0 rgba(122, 122, 122, 0.2);
+    background-color: #ededed !important;
+
     .accordion-header {
       position: relative;
       display: block;

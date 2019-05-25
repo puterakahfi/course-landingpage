@@ -2,12 +2,9 @@
   <section class="content is-center">
     <div class="titleunderline is-marginless is-paddingless is-small"></div>
 
-    <h1 class="title is-marginless">Subscribe to our newsletter</h1>
+    <h1 class="title is-marginless">{{ data.title }}</h1>
 
-    <p class="has-text-purple is-size-7 has-margin-top-20">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas.
-      <br>Nullam condimentum luctus turpis.
-    </p>
+    <p class="has-text-purple is-size-6 has-margin-top-20" v-html="data.description"></p>
     <div class="field has-addons">
       <div class="control">
         <input class="input is-medium" type="text" placeholder="Your email address">
@@ -18,3 +15,10 @@
     </div>
   </section>
 </template>
+
+
+<script>
+export default {
+  props: ["data"]
+};
+</script>

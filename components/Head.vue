@@ -9,7 +9,7 @@
       <div class="column is-6">
         <section class="hero is-paddingless">
           <div class="hero-body is-paddingless">
-            <div class="titleunderline"></div>
+            <div class="titleunderline is-large"></div>
             <h2
               class="subtitle has-text-grey has-margin-bottom-20 is-5 is-paddingless is-family-secondary has-text-purple"
             >{{data.subtitle}}</h2>
