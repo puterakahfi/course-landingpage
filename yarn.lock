@@ -1733,11 +1733,6 @@ bulma-accordion@^2.0.1:
   resolved "https://registry.yarnpkg.com/bulma-accordion/-/bulma-accordion-2.0.1.tgz#5493c51dd7c5926ae47115da3efe858cfb115474"
   integrity sha512-qqLN67Y60c0adHAVvQmJTr6rhg0FWUCWbswFaW/3+offjc6ujqrUoIdlzX1avni4d/aJEl7j9PckfRGmIJcxxQ==
 
-bulma-extensions@^6.2.6:
-  version "6.2.6"
-  resolved "https://registry.yarnpkg.com/bulma-extensions/-/bulma-extensions-6.2.6.tgz#04ffd16bc376af347a945a4c30d754ea6ed7f326"
-  integrity sha512-6O8AvDRpALtqdQ625WiMkg7n/zsI81GZxIYx4zT/MoZOzJZWhYWH4S/kKoAeeCWY7mKkB9241No+cEm7JuhxDA==
-
 bulma-helpers@^0.3.7:
   version "0.3.7"
   resolved "https://registry.yarnpkg.com/bulma-helpers/-/bulma-helpers-0.3.7.tgz#ba267b6602b8f10172cda81707482d787f2463e3"

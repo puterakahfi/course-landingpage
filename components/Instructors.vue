@@ -1,6 +1,6 @@
 <template>
   <section class id="instructors">
-    <div class="is-inline-flex">
+    <div class="is-inline-flex has-margin-bottom-15">
       <img class="image is-32x32" src="https://img.icons8.com/nolan/384/training.png">
 
       <h1 class="title is-4 ">{{ data.label }}</h1>

@@ -18,13 +18,7 @@
         {
             "label": "CTA",
             "url": "https://www.instagram.com/puterakahfi/",
-            "icon": {
-                "category": "fab",
-                "icon": "facebook",
-                "attr": {
-                    "class": " is-primary"
-                }
-            },
+
             "attr": {
                 "class": " is-success"
             }

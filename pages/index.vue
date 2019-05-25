@@ -20,7 +20,7 @@
       </div>
     </section>
 
-    <section class="has-padding-top-50 ">
+    <section class="has-padding-top-50">
       <div class="container">
         <div class="columns">
           <div class="column is-6">
@@ -36,7 +36,7 @@
       </div>
     </section>
 
-    <section class=" has-padding-top-50 has-padding-bottom-50">
+    <section class="has-padding-top-50 has-padding-bottom-50">
       <div class="container">
         <div class="columns is-centered">
           <div class="column is-4">
@@ -46,6 +46,8 @@
             >
           </div>
           <div class="column is-6-fullhd is-6-widescreen is-10-tablet">
+            <div class="titleunderline has-margin-bottom-5 is-small"></div>
+
             <h1 class="title is-4 has-text-left">{{modules.title}}</h1>
             <Modules :data="modules"/>
           </div>
@@ -82,7 +84,7 @@
         </div>
       </div>
     </section>
-    <section class="">
+    <section class>
       <div class="container has-padding-bottom-50">
         <div class="columns">
           <div class="column">
@@ -125,7 +127,6 @@ import instructorsData from "~/static/data/instructors.json";
 import modules from "~/static/data/modules.json";
 import newsletter from "~/static/data/newsletter.json";
 
-
 import head from "~/static/data/head.json";
 
 export default {
@@ -136,7 +137,7 @@ export default {
       instructors: instructorsData,
       head: head,
       modules: modules,
-      newsletter:newsletter
+      newsletter: newsletter
     };
   },
   components: {

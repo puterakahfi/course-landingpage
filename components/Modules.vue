@@ -3,6 +3,7 @@
     <article class="accordion has-margin-bottom-10" :key="item.label" v-for="item in data.items">
       <div class="accordion-header toggle has-background-white has-text-weight-medium">
         <p>{{ item.title }}</p>
+        <button aria-label="toggle"></button>
       </div>
       <div class="accordion-body">
         <div class="accordion-content has-text-purple is-size-6" v-html="item.description"></div>
@@ -13,8 +14,8 @@
 
 
 <script>
-import bulmaAccordion from "bulma-extensions/bulma-accordion/dist/js/bulma-accordion.min.js";
-import "bulma-extensions/bulma-accordion/dist/css/bulma-accordion.min.css";
+import bulmaAccordion from "bulma-accordion/dist/js/bulma-accordion.min.js";
+import "bulma-accordion/dist/css/bulma-accordion.min.css";
 export default {
   props: ["data"],
   data() {
