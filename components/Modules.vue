@@ -1,9 +1,9 @@
 <template>
   <section class="accordions">
     <article class="accordion has-margin-bottom-10" :key="item.label" v-for="item in data.items">
-      <div class="accordion-header toggle has-background-white has-text-weight-medium">
+      <div class="accordion-header toggle has-background-white has-text-weight-medium is-flex">
         <p>{{ item.title }}</p>
-        <button aria-label="toggle"></button>
+        <span class="toggle is-white has-margin-right-10" aria-label="toggle"></span>
       </div>
       <div class="accordion-body">
         <div class="accordion-content has-text-purple is-size-6" v-html="item.description"></div>
@@ -44,6 +44,12 @@ export default {
       border-bottom: none;
       line-height: 1;
       color: #1f2336;
+      .toggle {
+        background: transparent;
+        &::before {
+          color: black;
+        }
+      }
     }
     .accordion-content {
       background: #fefefe;
