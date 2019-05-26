@@ -42,7 +42,7 @@
             </div>
 
             <div class="content">
-              <span class="has-text-purple " v-html="instructor.description"></span>
+              <span class="" v-html="instructor.description"></span>
             </div>
           </div>
         </div>

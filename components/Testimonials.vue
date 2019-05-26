@@ -18,12 +18,12 @@
             <div class="media-content">
               <div class="content">
                 <p
-                  class="is-size-6 has-text-grey has-margin-top-10 is-family-secondary is-italic"
+                  class="is-size-6  has-margin-top-10 is-family-secondary is-italic"
                 >" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis."</p>
 
                 <div class="titleunderline is-small is-marginless"></div>
                 <br class="is-marginless is-paddingless">
-                <strong class="title is-6 has-text-grey">{{ item.name }}</strong>
+                <strong class="title is-6 ">{{ item.name }}</strong>
                 <br>
                 <span
                   class="subtitle is-7 has-text-grey-light"

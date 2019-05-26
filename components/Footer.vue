@@ -34,6 +34,7 @@
 
 <style lang="scss" scoped>
 footer {
+  background: #20232A;
 
   a {
     color: turquoise;

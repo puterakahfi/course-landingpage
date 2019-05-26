@@ -1,16 +1,21 @@
 // Override variables for Dark theme
+body{
+  --box-bg-color: #f2f2f2;
+}
+
 body[data-theme="dark"] {
-    --bg-color: #20232A;
-    --bg-content-color: #0f2d44;
-    --bg-code: rgba(0, 0, 0, 0.3);
-    --border-color: rgba(255, 255, 255, 0.1);
-    --body-color: #ced8de;
-    --title-color: #fff;
+  --bg-color: #20232a;
+  --bg-content-color: #0f2d44;
+  --bg-code: rgba(0, 0, 0, 0.3);
+  --border-color: rgba(255, 255, 255, 0.1);
+  --body-color: #ced8de;
+  --title-color: #fff;
 
-    --hr-color:#3F3D56;
-    --subtitle-color: #ececec;
-    --link-color: #e9e9e9;
-    --nav-link-color: white;
-    --box-bg-color: var(--bg-color);
-
-  }
+  --hr-color: #3f3d56;
+  --subtitle-color: #ececec;
+  --link-color: #e9e9e9;
+  --nav-link-color: white;
+  --box-bg-color: #15181c;
+  --primary-color: #fff;
+  --secondary-color: #ced8de;
+}

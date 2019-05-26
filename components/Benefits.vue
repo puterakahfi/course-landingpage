@@ -6,7 +6,7 @@
 
     <div class="columns is-multiline">
       <div class="column is-12" v-for="item in data.items" :key="item.title">
-        <div class="box is-paddingless">
+        <div class="box ">
           <article class="media">
             <div v-if="item.image !=='' " class="media-left">
               <figure class="image is-48x48">

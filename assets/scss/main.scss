@@ -104,6 +104,9 @@ hr {
 
 .box {
   background: var(--box-bg-color);
+  p {
+    color: var(--primary-color);
+  }
 }
 
 .content {
