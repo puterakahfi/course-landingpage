@@ -29,14 +29,16 @@
                 :key="link.label"
                 v-for="link in data.links"
               >
-                <span class="is-size-6">
-                  <fa v-if="typeof link.icon !== 'undefined'" :icon="[link.icon.category, link.icon.icon]" class="fa-1x"/>
-                  &nbsp; 
+                <span class="is-size-7 has-text-weight-bold	 is-uppercase">
+                  <fa
+                    v-if="typeof link.icon !== 'undefined'"
+                    :icon="[link.icon.category, link.icon.icon]"
+                    class="fa-1x"
+                  />
+                  &nbsp;
                   {{ link.label }}
                 </span>
               </a>
-
-          
             </div>
           </div>
         </section>
@@ -51,4 +53,16 @@ export default {
   props: ["data"]
 };
 </script>
+
+
+<style lang="scss" scoped>
+.title {
+  color: var(--title-color);
+}
+
+.subtitle {
+  color: var(--subtitle-color) !important;
+}
+</style>
+
 

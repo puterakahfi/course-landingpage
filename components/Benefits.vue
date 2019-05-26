@@ -16,7 +16,7 @@
             <div class="media-content">
               <div class="content">
                 <strong
-                  class="title is-5 is-family-primary has-text-grey-dark "
+                  class="title is-5 is-family-primary "
                 >{{ item.title }}</strong>
 
                 <p

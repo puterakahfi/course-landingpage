@@ -1,5 +1,5 @@
 <template>
-  <div class="has-background-white has-padding-top-50">
+  <div class="has-padding-top-50">
     <section class="container">
       <Head :data="head"/>
 
@@ -55,7 +55,7 @@
       </div>
     </section>
 
-    <section class="has-padding-50 has-background-white">
+    <section class="has-padding-50">
       <div class="container">
         <div class="columns">
           <div class="column is-4">
@@ -96,7 +96,7 @@
       </div>
     </section>
 
-    <section class="has-padding-top-50 has-padding-bottom-50 has-background-light">
+    <section class="has-padding-top-50 has-padding-bottom-50 ">
       <div class="columns is-centered">
         <div class="column is-3">
           <img
@@ -117,7 +117,7 @@ import Benefits from "~/components/Benefits.vue";
 import Pricing from "~/components/Pricing.vue";
 import Newsletter from "~/components/Newsletter.vue";
 import Modules from "~/components/Modules.vue";
-
+import ToggleTheme from "~/components/ToggleTheme.vue";
 import Instructors from "~/components/Instructors.vue";
 import Head from "~/components/Head.vue";
 import Testimonials from "~/components/Testimonials.vue";
@@ -147,7 +147,8 @@ export default {
     Head,
     Pricing,
     Modules,
-    Newsletter
+    Newsletter,
+    ToggleTheme
   },
   computed: {
     limitTestimonial: function() {

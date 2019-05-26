@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section class="has-background-white">
+    <section class="">
       <Navbar/>
     </section>
     <nuxt/>

@@ -30,6 +30,8 @@
             <fa :icon="['fab', 'github']" class="fa-2x"/>
           </span>
         </a>
+
+        <ToggleTheme class="navbar-item"/>
       </div>
     </div>
   </nav>
@@ -37,7 +39,12 @@
 
 
 <script>
+import ToggleTheme from "~/components/ToggleTheme";
+
 export default {
+  components: {
+    ToggleTheme
+  },
   mounted() {
     // Get all "navbar-burger" elements
     const $navbarBurgers = Array.prototype.slice.call(
