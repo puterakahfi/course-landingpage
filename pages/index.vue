@@ -1,11 +1,11 @@
 <template>
   <div class="has-padding-top-50">
-    <section class="container">
+    <section class="container"  data-aos="fade-up">
       <Head :data="head"/>
 
       <hr>
     </section>
-    <section class="has-margin-top-50 has-padding-bottom-50">
+    <section class="has-margin-top-50 has-padding-bottom-50" data-aos="fade-up">
       <div class="container">
         <div class="columns">
           <div class="column is-7">
@@ -20,7 +20,7 @@
       </div>
     </section>
 
-    <section class="has-padding-top-50">
+    <section class="has-padding-top-50" data-aos="fade-up">
       <div class="container">
         <div class="columns">
           <div class="column is-6">
@@ -36,7 +36,7 @@
       </div>
     </section>
 
-    <section class="has-padding-top-50 has-padding-bottom-50">
+    <section class="has-padding-top-50 has-padding-bottom-50" data-aos="fade-up">
       <div class="container">
         <div class="columns is-centered">
           <div class="column is-4">
@@ -55,7 +55,7 @@
       </div>
     </section>
 
-    <section class="has-padding-50">
+    <section class="has-padding-50 data-aos="fade-up"">
       <div class="container">
         <div class="columns">
           <div class="column is-4">
@@ -84,7 +84,7 @@
         </div>
       </div>
     </section>
-    <section class>
+    <section data-aos="fade-up">
       <div class="container has-padding-bottom-50">
         <div class="columns">
           <div class="column">
@@ -96,7 +96,7 @@
       </div>
     </section>
 
-    <section class="has-padding-top-50 has-padding-bottom-50 ">
+    <section class="has-padding-top-50 has-padding-bottom-50 " data-aos="fade-up">
       <div class="columns is-centered">
         <div class="column is-3">
           <img

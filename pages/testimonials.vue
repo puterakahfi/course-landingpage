@@ -1,5 +1,5 @@
 <template>
-  <section class="has-margin-top-50 has-padding-bottom-50">
+  <section class="has-margin-top-50 has-padding-bottom-50" data-aos="fade-up">
     <div class="container">
       <Testimonials :data="testimonials" class="has-margin-top-50"/>
 

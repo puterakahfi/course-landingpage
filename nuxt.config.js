@@ -17,7 +17,7 @@ export default {
    ** Headers of the page
    */
   head: {
-    title: 'Course Landingpage',
+    title: "Course Landingpage",
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
@@ -39,7 +39,7 @@ export default {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: [],
+  plugins: [{ src: "@/plugins/aos", ssr: false }],
 
   /*
    ** Nuxt.js modules

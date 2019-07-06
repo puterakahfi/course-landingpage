@@ -1,5 +1,5 @@
 <template>
-  <section class="has-margin-top-50 has-padding-bottom-50">
+  <section class="has-margin-top-50 has-padding-bottom-50" data-aos="fade-up">
     <div class="container">
       <div class="is-inline-flex">
         <img class="image is-48x48" src="https://img.icons8.com/nolan/384/chat.png">
