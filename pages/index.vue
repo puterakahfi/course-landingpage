@@ -1,36 +1,36 @@
 <template>
   <div class="has-padding-top-50">
-    <section class="container"  data-aos="fade-up">
-      <Head :data="head"/>
+    <section class="container" data-aos="zoom-in">
+      <Head :data="head" />
 
-      <hr>
+      <hr />
     </section>
-    <section class="has-margin-top-50 has-padding-bottom-50" data-aos="fade-up">
+    <section class="has-margin-top-50 has-padding-bottom-50" data-aos="zoom-in">
       <div class="container">
         <div class="columns">
           <div class="column is-7">
-            <Benefits :data="benefits"/>
+            <Benefits :data="benefits"  data-aos="zoom-in" />
           </div>
           <div class="column is-5">
             <img
               src="https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/deliveries_131a.svg"
-            >
+            />
           </div>
         </div>
       </div>
     </section>
 
-    <section class="has-padding-top-50" data-aos="fade-up">
+    <section class="has-padding-top-50" data-aos="zoom-in">
       <div class="container">
         <div class="columns">
           <div class="column is-6">
-            <Instructors :data="instructors"/>
+            <Instructors :data="instructors" />
           </div>
           <div class="column is-6">
             <img
               src="https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/teaching_f1cm.svg"
               alt
-            >
+            />
           </div>
         </div>
       </div>
@@ -43,31 +43,31 @@
             <img
               src="https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/timeline_9u4u.svg"
               alt
-            >
+            />
           </div>
           <div class="column is-6-fullhd is-6-widescreen is-10-tablet">
             <div class="titleunderline has-margin-bottom-5 is-small"></div>
 
             <h1 class="title is-4 has-text-left">{{modules.title}}</h1>
-            <Modules :data="modules"/>
+            <Modules :data="modules" />
           </div>
         </div>
       </div>
     </section>
 
-    <section class="has-padding-50 data-aos="fade-up"">
+    <section class="has-padding-50" data-aos="fade-up">
       <div class="container">
         <div class="columns">
           <div class="column is-4">
             <div class="content">
               <div class="titleunderline is-marginless is-paddingless is-small"></div>
-              <br>
+              <br />
               <div class="is-inline-flex">
                 <img
                   class="image is-32x32 is-pulled-left"
                   src="https://img.icons8.com/nolan/384/price-tag-euro.png"
                   alt
-                >
+                />
                 <h1 class="title is-4 is-marginless">Price</h1>
               </div>
 
@@ -75,11 +75,11 @@
                 class="has-text-purple"
               >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.</p>
 
-              <br>
+              <br />
             </div>
           </div>
           <div class="column is-8">
-            <Pricing/>
+            <Pricing />
           </div>
         </div>
       </div>
@@ -88,7 +88,7 @@
       <div class="container has-padding-bottom-50">
         <div class="columns">
           <div class="column">
-            <Testimonials :data="limitTestimonial" class="has-padding-top-50"/>
+            <Testimonials :data="limitTestimonial" class="has-padding-top-50" />
           </div>
         </div>
 
@@ -96,16 +96,16 @@
       </div>
     </section>
 
-    <section class="has-padding-top-50 has-padding-bottom-50 " data-aos="fade-up">
+    <section class="has-padding-top-50 has-padding-bottom-50" data-aos="fade-up">
       <div class="columns is-centered">
         <div class="column is-3">
           <img
             src="https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/subscriber_vabu.svg"
             alt
-          >
+          />
         </div>
         <div class="column is-6 has-padding-left-50">
-          <Newsletter class="container" :data="newsletter"/>
+          <Newsletter class="container" :data="newsletter" />
         </div>
       </div>
     </section>
