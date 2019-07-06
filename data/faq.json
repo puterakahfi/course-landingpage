@@ -1,0 +1,35 @@
+{
+    "label": "Freqeuent AS Question (FAQ)",
+    "items": [
+        {
+            "id": "question",
+            "question": "Your Question",
+            "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis."
+        },
+        {
+            "id": "question",
+            "question": "Your Question again",
+            "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis."
+        },
+        {
+            "id": "question",
+            "question": "Your Question again and again",
+            "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis."
+        },
+        {
+            "id": "question",
+            "question": "How to question",
+            "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis."
+        },
+        {
+            "id": "question",
+            "question": "How to question",
+            "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis."
+        },
+        {
+            "id": "question",
+            "question": "How to question",
+            "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis."
+        }
+    ]
+}
