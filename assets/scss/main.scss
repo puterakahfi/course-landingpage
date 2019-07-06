@@ -114,3 +114,32 @@ hr {
     color: var(--title-color);
   }
 }
+
+
+.accordions {
+  .accordion {
+    box-shadow: 0 4px 5px 0 rgba(122, 122, 122, 0.2);
+    background-color: #ededed !important;
+
+    .accordion-header {
+      position: relative;
+      display: block;
+      padding: 1rem 0 1rem 1rem;
+      background: var(--acordion-bg-color) !important;
+
+      border: 1px solid #dbdbdb;
+      border-bottom: none;
+      line-height: 1;
+      color: #1f2336;
+      .toggle {
+        background: transparent;
+        &::before {
+          color: black;
+        }
+      }
+    }
+    .accordion-content {
+      background: #fefefe;
+    }
+  }
+}

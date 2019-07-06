@@ -1,7 +1,7 @@
 <template>
   <section class="accordions">
     <article class="accordion has-margin-bottom-10" :key="item.label" v-for="item in data.items">
-      <div class="accordion-header toggle has-background-white has-text-weight-medium is-flex">
+      <div class="accordion-header toggle  has-text-weight-medium is-flex">
         <p>{{ item.title }}</p>
         <span class="toggle is-white has-margin-right-10" aria-label="toggle"></span>
       </div>
@@ -30,31 +30,5 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.accordions {
-  .accordion {
-    box-shadow: 0 4px 5px 0 rgba(122, 122, 122, 0.2);
-    background-color: #ededed !important;
-
-    .accordion-header {
-      position: relative;
-      display: block;
-      padding: 1rem 0 1rem 1rem;
-
-      border: 1px solid #dbdbdb;
-      border-bottom: none;
-      line-height: 1;
-      color: #1f2336;
-      .toggle {
-        background: transparent;
-        &::before {
-          color: black;
-        }
-      }
-    }
-    .accordion-content {
-      background: #fefefe;
-    }
-  }
-}
 </style>
 
