@@ -6,7 +6,7 @@
         <span class="toggle is-white has-margin-right-10" aria-label="toggle"></span>
       </div>
       <div class="accordion-body">
-        <div class="accordion-content has-text-purple is-size-6" v-html="item.description"></div>
+        <div class="accordion-content has-text-purple is-size-7" v-html="item.description"></div>
       </div>
     </article>
   </section>

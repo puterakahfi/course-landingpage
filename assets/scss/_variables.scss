@@ -1,6 +1,8 @@
 // Override variables for Dark theme
 body{
   --box-bg-color: #f2f2f2;
+  --accordion-bg-color: transparent;
+  --accordion-header-bg: #6F6BFA;
 }
 
 body[data-theme="dark"] {
